@@ -1,4 +1,4 @@
-version="1.16.10"
+version="0.00.01"
 tags={
 	"Alternative History"
 	"National Focuses"
