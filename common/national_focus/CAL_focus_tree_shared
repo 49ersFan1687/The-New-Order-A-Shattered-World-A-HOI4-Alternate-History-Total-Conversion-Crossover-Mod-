@@ -121,3 +121,96 @@ shared_focus = {
 		}
 	}
 }
+
+shared_focus = {
+	id = CAL_radio_silence_from_outside
+	icon = GFX_alone_and_isolated
+	cost = 5
+	prerequisite = {
+		focus = CAL_alone_and_isolated
+	}
+	x = 1
+	y = 1
+    relative_position_id = CAL_alone_and_isolated
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
+		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
+		hidden_effect = {
+			CAL = {
+				country_event = { id = CAL.6 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_destroyed_army
+	icon = GFX_alone_and_isolated
+	cost = 5
+	prerequisite = {
+		focus = CAL_a_shattered_military
+	}
+    prerequisite = {
+        focus = CAL_barely_no_industry
+    }
+	x = -1
+	y = 1
+    relative_position_id = CAL_barely_no_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
+		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
+		hidden_effect = {
+			CAL = {
+				country_event = { id = CAL.7 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_grounded_air_force
+	icon = GFX_alone_and_isolated
+	cost = 5
+	prerequisite = {
+		focus = CAL_a_shattered_military
+	}
+    prerequisite = {
+        focus = CAL_barely_no_industry
+    }
+	x = 1.3
+	y = 1
+    relative_position_id = CAL_barely_no_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
+		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
+		hidden_effect = {
+			CAL = {
+				country_event = { id = CAL.7 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_a_nonexistant_navy
+	icon = GFX_alone_and_isolated
+	cost = 5
+	prerequisite = {
+		focus = CAL_a_shattered_military
+	}
+    prerequisite = {
+        focus = CAL_barely_no_industry
+    }
+	x = 1
+	y = 1
+    relative_position_id = CAL_a_shattered_military
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
+		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
+		hidden_effect = {
+			CAL = {
+				country_event = { id = CAL.8 }
+			}
+		}
+	}
+}
