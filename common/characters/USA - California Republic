@@ -30,7 +30,7 @@ characters = {
 			}
 		}
         advisor = {
-			slot = vice_president
+			slot = 
 			idea_token = CAL_huey_pierce_long_jr_hog
 			allowed = { original_tag = CAL }
 			traits = {
