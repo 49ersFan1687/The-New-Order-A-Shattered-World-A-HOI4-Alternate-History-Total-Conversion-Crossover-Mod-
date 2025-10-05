@@ -1,12 +1,9 @@
+### Initial Focus Tree ###
+
 shared_focus = {
 	id = CAL_the_long_retreat_west
 	icon = GFX_
 	cost = 5
-	allow_branch = {
-		has_country_leader = {
-			character = CAL_dwight_devid_eisenhower
-		}
-	}
 	x = 0
 	y = 0
 	completion_reward = {
