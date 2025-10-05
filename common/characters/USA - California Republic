@@ -29,5 +29,17 @@ characters = {
 			traits = {
 			}
 		}
+        advisor = {
+			slot = vice_president
+			idea_token = CAL_huey_pierce_long_jr_hog
+			allowed = { original_tag = CAL }
+			traits = {
+				
+			}
+			ledger = civilian
+			cost = -1
+			can_be_fired = no
+			ai_will_do = { factor = 0 }
+		}
     }
 }
