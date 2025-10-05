@@ -27,7 +27,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_the_long_retreat_west
 	}
-	x = 1
+	x = 1.5
 	y = 1
     relative_position_id = CAL_the_long_retreat_west
 	completion_reward = {
@@ -48,15 +48,57 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_the_long_retreat_west
 	}
-	x = -1
+	x = -1.5
 	y = 1
     relative_position_id = CAL_the_long_retreat_west
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_destroyed_state"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_shattered_military"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
 				country_event = { id = CAL.3 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_no_naval_power
+	icon = GFX_focus_no_naval_power
+	cost = 5
+	prerequisite = {
+		focus = CAL_the_long_retreat_west
+	}
+	x = -4
+	y = 1
+    relative_position_id = CAL_the_long_retreat_west
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_no_naval_power"
+		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
+		hidden_effect = {
+			CAL = {
+				country_event = { id = CAL.4 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_alone_and_isolated
+	icon = GFX_alone_and_isolated
+	cost = 5
+	prerequisite = {
+		focus = CAL_the_long_retreat_west
+	}
+	x = 4
+	y = 1
+    relative_position_id = CAL_the_long_retreat_west
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
+		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
+		hidden_effect = {
+			CAL = {
+				country_event = { id = CAL.4 }
 			}
 		}
 	}
