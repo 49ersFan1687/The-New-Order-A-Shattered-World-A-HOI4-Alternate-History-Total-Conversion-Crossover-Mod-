@@ -1,16 +1,41 @@
 shared_focus = {
 	id = CAL_the_long_retreat_west
-	icon = 
+	icon = GFX_
 	cost = 5
 	allow_branch = {
 		has_country_leader = {
 			character = CAL_dwight_devid_eisenhower
 		}
 	}
-	x = 11
+	x = 0
 	y = 0
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_long_retreat_west"
 		custom_effect_tooltip = CAL_the_long_retreat_west_tooltip
+        hidden_effect = {
+			CAL = {
+				country_event = { id = CAL.1 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_a_destroyed_state
+	icon = GFX_focus_a_destroyed_state
+	cost = 5
+	prerequisite = {
+		focus = CAL_the_long_retreat_west
+	}
+	x = 1
+	y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_destroyed_state"
+		custom_effect_tooltip = GER_the_enemy_of_my_enemy_tooltip
+		hidden_effect = {
+			CAL = {
+				country_event = { id = CAL.2 }
+			}
+		}
 	}
 }
