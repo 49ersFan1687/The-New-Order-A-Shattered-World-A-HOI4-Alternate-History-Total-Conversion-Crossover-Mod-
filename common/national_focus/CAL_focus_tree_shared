@@ -185,7 +185,7 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.7 }
+				country_event = { id = CAL.8 }
 			}
 		}
 	}
@@ -209,7 +209,40 @@ shared_focus = {
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.8 }
+				country_event = { id = CAL.9 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_what_the_absolute_hell_we_should_we_do_now
+	icon = GFX_alone_and_isolated
+	cost = 5
+	prerequisite = {
+		focus = CAL_destroyed_army
+	}
+    prerequisite = {
+        focus = CAL_grounded_air_force
+    }
+    prerequisite = {
+        focus = CAL_a_nonexistant_navy
+    }
+    prerequisite = {
+        focus = CAL_nonexistant_bereaucracy
+    }
+    prerequisite = {
+        focus = CAL_radio_silence_from_outside
+    }
+	x = 0
+	y = 3
+    relative_position_id = CAL_the_long_retreat_west
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
+		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
+		hidden_effect = {
+			CAL = {
+				country_event = { id = CAL.10 }
 			}
 		}
 	}
