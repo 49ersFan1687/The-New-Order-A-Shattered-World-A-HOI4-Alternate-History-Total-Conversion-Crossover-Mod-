@@ -1,3 +1,12 @@
+## Intro ##
 focus_tree = {
+    id = CAL_starting_focus_tree
+    country = {
+		factor = 0
+		modifier = { add = 10 tag = CAL }
+	}
+    default = no
+	shared_focus = CAL_the_long_retreat_west
 
+    continuous_focus_position = { x = 2500 y = 50 }
 }
