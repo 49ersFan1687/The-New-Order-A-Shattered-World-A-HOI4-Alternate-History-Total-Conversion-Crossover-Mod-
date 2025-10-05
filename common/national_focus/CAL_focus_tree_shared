@@ -1,0 +1,17 @@
+shared_focus = {
+	id = CAL_the_long_retreat_west
+	icon = 
+	cost = 3
+	allow_branch = {
+		has_country_leader = {
+			character = CAL_dwight_devid_eisenhower
+			ruling_only = yes
+		}
+	}
+	x = 11
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_long_retreat_west"
+		custom_effect_tooltip = GER_a_man_on_the_moon_tooltip
+	}
+}
