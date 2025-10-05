@@ -1,0 +1,19 @@
+characters = {
+    # country leaders #
+    CAL_henry_agard_wallace = {
+        name = CAL_henry_agard_wallace
+		portraits = {
+			civilian = {
+				large = 
+			}
+		}
+		country_leader = {
+			desc = "POLITICS_HENRY_WALLACE_DESC"
+			expire = "1994.4.20"
+			ideology = 
+			traits = {
+			}
+			id = -1
+		}
+    }
+}
