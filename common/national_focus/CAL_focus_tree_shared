@@ -60,8 +60,8 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_no_naval_power
-	icon = GFX_focus_no_naval_power
+	id = CAL_no_industry
+	icon = GFX_focus_no_industry
 	cost = 5
 	prerequisite = {
 		focus = CAL_the_long_retreat_west
