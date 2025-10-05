@@ -60,8 +60,8 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_no_industry
-	icon = GFX_focus_no_industry
+	id = CAL_barely_no_industry
+	icon = GFX_focus_barely_no_industry
 	cost = 5
 	prerequisite = {
 		focus = CAL_the_long_retreat_west
@@ -96,6 +96,27 @@ shared_focus = {
 		hidden_effect = {
 			CAL = {
 				country_event = { id = CAL.4 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_nonexistant_bereaucracy
+	icon = GFX_alone_and_isolated
+	cost = 5
+	prerequisite = {
+		focus = CAL_a_destroyed_state
+	}
+	x = 1
+	y = 1
+    relative_position_id = CAL_a_destroyed_state
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
+		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
+		hidden_effect = {
+			CAL = {
+				country_event = { id = CAL.5 }
 			}
 		}
 	}
