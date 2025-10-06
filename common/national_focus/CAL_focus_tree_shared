@@ -60,7 +60,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_barely_no_industry
+	id = CAL_barely_no_industry_and_in_a_depresssion
 	icon = GFX_focus_barely_no_industry
 	cost = 5
 	prerequisite = {
@@ -155,7 +155,7 @@ shared_focus = {
     }
 	x = -1
 	y = 1
-    relative_position_id = CAL_barely_no_industry
+    relative_position_id = CAL_barely_no_industry_and_in_a_depresssion
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
@@ -175,11 +175,11 @@ shared_focus = {
 		focus = CAL_a_shattered_military
 	}
     prerequisite = {
-        focus = CAL_barely_no_industry
+        focus = CAL_barely_no_industry_and_in_a_depresssion
     }
 	x = 1.3
 	y = 1
-    relative_position_id = CAL_barely_no_industry
+    relative_position_id = CAL_barely_no_industry_and_in_a_depresssion
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
@@ -216,7 +216,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_what_the_absolute_hell_we_should_we_do_now
+	id = CAL_what_the_absolute_hell_are_we_going_to_do_now
 	icon = GFX_alone_and_isolated
 	cost = 5
 	prerequisite = {
