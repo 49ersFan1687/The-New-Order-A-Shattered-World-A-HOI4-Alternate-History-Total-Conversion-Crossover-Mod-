@@ -10,7 +10,7 @@ focus_tree = {
         }
 	}
     default = no
-	shared_focus = 
+	shared_focus = CAS_sunrise_on_the_shattered_pacific_northwest
 
     continuous_focus_position = { x = 2500 y = 50 }
 }
