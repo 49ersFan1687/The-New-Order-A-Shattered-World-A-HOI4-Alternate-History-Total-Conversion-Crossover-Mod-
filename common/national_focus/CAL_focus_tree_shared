@@ -249,13 +249,13 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_restablish_radio_contact
+	id = CAL_restablish_radio_contact_with_canada
 	icon = GFX_alone_and_isolated
 	cost = 5
 	prerequisite = {
 		focus = CAL_what_the_absolute_fuck_are_we_going_to_do_now
 	}
-	x = -1
+	x = -1.5
 	y = 1
     relative_position_id = CAL_what_the_absolute_fuck_are_we_going_to_do_now
 	completion_reward = {
@@ -270,14 +270,38 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_contact_our_friends_up_north
+	id = CAL_contact_the_remnants
 	icon = GFX_alone_and_isolated
 	cost = 5
 	prerequisite = {
 		focus = CAL_what_the_absolute_fuck_are_we_going_to_do_now
 	}
-	x = 1
+	x = 1.5
 	y = 1
+    relative_position_id = CAL_what_the_absolute_fuck_are_we_going_to_do_now
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
+		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
+		hidden_effect = {
+			CAL = {
+				country_event = { id = CAL.9 }
+			}
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_begin_turning_southern_california_into_a_bastion
+	icon = GFX_alone_and_isolated
+	cost = 5
+	prerequisite = {
+		focus = CAL_restablish_radio_contact_with_canada
+	}
+	prerequisite = {
+		focus = CAL_contact_the_remnants
+	}
+	x = 0
+	y = 2
     relative_position_id = CAL_what_the_absolute_fuck_are_we_going_to_do_now
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
