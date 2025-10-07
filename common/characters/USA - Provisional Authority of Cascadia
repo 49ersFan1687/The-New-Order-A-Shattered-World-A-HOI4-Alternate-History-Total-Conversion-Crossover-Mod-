@@ -1,45 +1,31 @@
 characters = {
     # country leaders #
-    CAL_henry_agard_wallace = {
-        name = CAL_henry_agard_wallace
+    CAS_atsuko_maeda = {
+        name = CAS_atsuko_maeda
 		portraits = {
 			civilian = {
 				large = 
 			}
+			army = {
+				large
+			}
 		}
 		country_leader = {
-			desc = "POLITICS_HENRY_WALLACE_DESC"
+			desc = "POLITICS_ATSUKO_MAEDA_DESC"
 			expire = "1994.4.20"
 			ideology = 
 			traits = {
 			}
 		}
-    }
-    CAL_huey_pierce_long_jr = {
-        name = CAL_huey_pierce_long_jr
-        portraits = {
-			civilian = {
-				large = 
-			}
-		}
-		country_leader = {
-			desc = "POLITICS_HUEY_LONG_DESC"
-			expire = "1994.4.20"
-			ideology = 
-			traits = {
-			}
-		}
-        advisor = {
-			slot = 
-			idea_token = CAL_huey_pierce_long_jr_hog
-			allowed = { original_tag = CAL }
-			traits = {
-				
-			}
-			ledger = civilian
-			cost = -1
-			can_be_fired = no
-			ai_will_do = { factor = 0 }
+		field_marshal = {
+			traits = {  }
+			skill =
+			attack_skill = 
+			defense_skill =
+			planning_skill = 
+			logistics_skill =
 		}
     }
+    # Generals and Admirals #
+
 }
