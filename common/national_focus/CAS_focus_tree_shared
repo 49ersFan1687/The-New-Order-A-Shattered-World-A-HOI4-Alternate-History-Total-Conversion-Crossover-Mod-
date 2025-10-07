@@ -1,0 +1,16 @@
+shared_focus = {
+	id = CAS_sunrise_on_the_shattered_pacific_northwest
+	icon = GFX_
+	cost = 5
+	x = 0
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_starting_focus_tree"
+		custom_effect_tooltip = CAS_sunrise_on_the_shattered_pacific_northwest_tooltip
+        hidden_effect = {
+			CAL = {
+				country_event = { id = CAS.1 }
+			}
+		}
+	}
+}
