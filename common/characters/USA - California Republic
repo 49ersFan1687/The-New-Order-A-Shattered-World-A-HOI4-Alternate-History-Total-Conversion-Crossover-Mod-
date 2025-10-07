@@ -64,7 +64,49 @@ characters = {
 			planning_skill = 
 			logistics_skill = 
 		}
-	
+	}
+	CAL_George_Catlett_Marshall = {
+		name = CAL_George_Catlett_Marshall
+		portraits = {
+			civilian = {
 
+			}
+			army = {
+
+			}
+		}
+		advisior = {
+			slot = 
+		}
+		field_marshal = {
+			traits = {  }
+			skill
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+	CAL_Omar_Nelson_Bradley = {
+		name = CAL_Omar_Nelson_Bradley
+		portraits = {
+			civilian = {
+
+			}
+			army = {
+
+			}
+		}
+		advisior = {
+			slot = 
+		}
+		field_marshal = {
+			traits = {  }
+			skill
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
 	}
 }
