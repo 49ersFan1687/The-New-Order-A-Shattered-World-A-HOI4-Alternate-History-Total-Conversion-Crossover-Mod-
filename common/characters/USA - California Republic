@@ -42,4 +42,29 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
     }
+    # Generals and Admirals #
+	CAL_Dwight_David_Eisenhower = {
+		name = CAL_Dwight_David_Eisenhower
+		portraits = {
+			civilian = {
+
+			}
+			army = {
+
+			}
+		}
+		advisior = {
+			slot = 
+		}
+		field_marshal = {
+			traits = {  }
+			skill
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	
+
+	}
 }
