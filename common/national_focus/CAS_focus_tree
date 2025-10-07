@@ -14,3 +14,15 @@ focus_tree = {
 
     continuous_focus_position = { x = 2500 y = 50 }
 }
+
+focus_tree = {
+    id = CAS_economy_tree
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = CAS
+        }
+    }
+    default = no
+}
