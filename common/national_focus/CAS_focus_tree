@@ -1,0 +1,16 @@
+## Intro ##
+
+focus_tree = {
+    id = CAS_starting_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10 
+            tag = CAS 
+        }
+	}
+    default = no
+	shared_focus = 
+
+    continuous_focus_position = { x = 2500 y = 50 }
+}
