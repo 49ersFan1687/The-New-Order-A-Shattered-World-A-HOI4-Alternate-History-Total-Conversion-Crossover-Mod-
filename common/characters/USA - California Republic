@@ -42,7 +42,7 @@ characters = {
 			ai_will_do = { factor = 0 }
 		}
     }
-    # Generals and Admirals #
+    # Field Marshals #
 	CAL_Dwight_David_Eisenhower = {
 		name = CAL_Dwight_David_Eisenhower
 		portraits = {
@@ -102,11 +102,178 @@ characters = {
 		}
 		field_marshal = {
 			traits = {  }
-			skill
+			skill = 
 			attack_skill = 
 			defense_skill = 
 			planning_skill = 
 			logistics_skill = 
 		}
 	}
+	# Generals #
+	CAL_George_Smith_Patton_Jr = {
+		name = CAL_George_Smith_Patton_Jr
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_Walton_Harris_Walker = {
+		name = CAL_Walton_Harris_Walker
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_Smedley Darlington Butler = {
+		name = CAL_Walton_Harris_Walker
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_Glynda_Goodwitch = {
+		name = CAL_Glynda_Goodwitch
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_William_Childs_Westmoreland = {
+		name = CAL_William_Childs_Westmoreland
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_Maxwell_Davenport_Taylor = {
+		name = CAL_Maxwell_Davenport_Taylor
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_Mark_Wayne_Clark = {
+		name = CAL_Maxwell_Davenport_Taylor
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_Henry_Harley_Arnold = {
+		name = CAL_Henry_Harley_Arnold
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_Jacob_Loucks_Devers = {
+		name = CAL_Jacob_Loucks_Devers
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_Lucian_King_Truscott = {
+		name = CAL_Lucian_King_Truscott
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+Leonard Townsend Gerow
+Benjamin Oliver Davis Sr.
+Ulysses Simpson Grant III
+Claire Lee Chennault
+John Daniel Lavelle
+
 }
