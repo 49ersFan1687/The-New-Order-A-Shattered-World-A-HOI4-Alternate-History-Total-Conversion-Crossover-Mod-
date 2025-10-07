@@ -270,10 +270,84 @@ characters = {
 			logistics_skill =
 		}
 	}
-Leonard Townsend Gerow
-Benjamin Oliver Davis Sr.
-Ulysses Simpson Grant III
-Claire Lee Chennault
-John Daniel Lavelle
+	CAL_Leonard_Townsend_Gerow = {
+		name = CAL_Leonard_Townsend_Gerow
+		portraits = {
+			army = {
 
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_Benjamin_Oliver_Davis_Sr = {
+		name = CAL_Benjamin_Oliver_Davis_Sr
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_Ulysses_Simpson_Grant_III = {
+		name = CAL_Ulysses_Simpson_Grant_III
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_Claire_Lee_Chennault = {
+		name = CAL_Claire_Lee_Chennault
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_John_Daniel_Lavelle = {
+		name = CAL_John_Daniel_Lavelle
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
 }
