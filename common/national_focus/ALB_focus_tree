@@ -1,0 +1,28 @@
+## Intro ##
+
+focus_tree = {
+    id = ALB_starting_focus_tree
+    country = {
+		factor = 0
+		modifier = { 
+            add = 10 
+            tag = ALB
+        }
+	}
+    default = no
+	shared_focus = ALB_death_to_facism!_freedom_to_the_people!
+
+    continuous_focus_position = { x = 2500 y = 50 }
+}
+
+focus_tree = {
+    id = ALB_economy_tree
+    country = {
+        factor = 0
+        modifier = {
+            add = 10
+            tag = CAL
+        }
+    }
+    default = no
+}
