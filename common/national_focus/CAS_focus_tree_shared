@@ -16,7 +16,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAS_the_creation_and_role_of_the_provisional_state
+	id = CAS_the_creation_and_the_role_of_the_provisional_state
 	icon = GFX
 	cost = 5
 	prerequisite = {
