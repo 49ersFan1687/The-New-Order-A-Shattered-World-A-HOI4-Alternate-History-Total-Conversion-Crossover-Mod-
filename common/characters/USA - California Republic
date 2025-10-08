@@ -47,10 +47,10 @@ characters = {
 		name = CAL_Dwight_David_Eisenhower
 		portraits = {
 			civilian = {
-
+				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
 			}
 			army = {
-
+				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
 			}
 		}
 		advisior = {
