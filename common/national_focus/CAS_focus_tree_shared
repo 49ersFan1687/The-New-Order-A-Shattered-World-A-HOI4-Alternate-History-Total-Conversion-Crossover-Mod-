@@ -16,21 +16,21 @@ shared_focus = {
 }
 
 shared_focus = {
-    id = CAS_the_creation_and_role_of_the_provisional_state
-    icon = GFX
-    cost = 5
+	id = CAS_the_creation_and_role_of_the_provisional_state
+	icon = GFX
+	cost = 5
 	prerequisite = {
 		focus = CAS_sunrise_on_the_shattered_pacific_northwest
 	}
 	x = 0
 	y = 1
-    relative_position_id = CAS_sunrise_on_the_shattered_pacific_northwest
+	relative_position_id = CAS_sunrise_on_the_shattered_pacific_northwest
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_destroyed_state"
-		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
+		custom_effect_tooltip = CAS_the_creation_and_role_of_the_provisional_state_tooltip
 		hidden_effect = {
-			CAL = {
-				country_event = { id = CAL.2 }
+			CAS = { 
+				country_event = { id = CAS.2 }
 			}
 		}
 	}
