@@ -1,0 +1,37 @@
+ideologies = {
+
+    communism = {
+
+    }
+    socialism = {
+
+    }
+    social_democracy = {
+
+    }
+    liberalism = {
+
+    }
+    conservatism = {
+
+    }
+    authoritarian_democracy = {
+
+    }
+    accelerationism = {
+
+    }
+    paternal_autocrat = {
+
+    }
+    fascism = {
+
+    }
+    national_socialism = {
+
+    }
+    esotericism = {
+        
+    }
+
+}
