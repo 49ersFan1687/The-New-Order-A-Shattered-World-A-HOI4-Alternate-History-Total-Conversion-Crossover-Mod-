@@ -57,8 +57,8 @@ characters = {
 			slot = 
 		}
 		field_marshal = {
-			traits = {  }
-			skill
+			traits = { career_officer }
+			skill = 
 			attack_skill = 
 			defense_skill = 
 			planning_skill = 
