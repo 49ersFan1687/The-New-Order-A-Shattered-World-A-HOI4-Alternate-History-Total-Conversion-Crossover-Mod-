@@ -69,10 +69,10 @@ characters = {
 		name = CAL_George_Catlett_Marshall
 		portraits = {
 			civilian = {
-
+				large = 
 			}
 			army = {
-
+				large = 
 			}
 		}
 		advisior = {
@@ -345,6 +345,38 @@ characters = {
 			traits = {  }
 			skill = 
 			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_Elizabeth_Coleman = {
+		name = CAL_Elizabeth_Coleman
+		portraits = {
+			army = {
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill =
+			defense_skill = 
+			planning_skill = 
+			logistics_skill =
+		}
+	}
+	CAL_Charity_Edna_Adams_Earley = {
+		name = CAL_Charity_Edna_Adams_Earley
+		portraits = {
+			army = { 
+
+			}
+		}
+		corps_commander = {
+			traits = {  }
+			skill = 
+			attack_skill =
 			defense_skill = 
 			planning_skill = 
 			logistics_skill =
