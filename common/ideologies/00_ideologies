@@ -1,40 +1,64 @@
 ideologies = {
 
     communism = {
+        types = {
 
+        }
     }
     socialism = {
+        types = {
 
+        }
     }
     social_democracy = {
+        types = {
 
+        }
     }
     liberalism = {
+        types = {
 
+        }
     }
     conservatism = {
+        types = {
 
+        }
     }
     authoritarian_democracy = {
+        types = {
 
+        }
     }
     accelerationism = {
+        types = {
 
+        }
     }
     paternal_autocrat = {
+        types = {
 
+        }
     }
     fascism = {
+        types = {
 
+        }
     }
     ultranationalism = {
-        
+        types = {
+
+        }
     }
     national_socialism = {
+        types = {
 
+        }
     }
     esotericism = {
+        types = {
 
+        }
     }
 
 }
