@@ -14,6 +14,9 @@ characters = {
 			expire = "1999.1.1"
 			desc = "POLITICS_MIKHAIL_FRUNZE_DESC"
 			ideology = 
+            traits = {
+                
+            }
 			id = -1
 		}
 		field_marshal = {
@@ -39,7 +42,7 @@ characters = {
 		country_leader = {
 			expire = "1999.1.1"
 			desc = "POLITICS_GEORGY_ZHUKOV_DESC"
-			ideology = communist_bolshevism_subtype
+			ideology = 
 			traits = {
 
 			}
