@@ -443,10 +443,40 @@ characters = {
 			}
 		 }
 	}
-William Fredrick Halsey Jr.
+	CAL_William_Daniel_Leahy = {
+		name = CAL_William_Daniel_Leahy
+		portraits = {
+			army = {
+				large = 
+				small =
+			}
+			civilian = {
+				small = 
+			}
+		}
+		navy_leader = {
+			desc = 
+			traits = {  }
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
+
+		}
+		advisior = { 
+			slot = 
+			idea_token = 
+			ledger = navy
+			allowed = { original_tag = CAL }
+			traits = {
+
+			}
+		 }
+	}
+	CAL_William_Fredrick_Halsey Jr.
 Samuel Lee Gravely Jr.
 Arleigh Albert Burke
-William Daniel Leahy
+
 Issac Campbell Kidd Sr.
 
 }
