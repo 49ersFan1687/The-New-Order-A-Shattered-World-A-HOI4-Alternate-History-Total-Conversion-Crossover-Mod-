@@ -4,10 +4,10 @@ characters = {
 		name = WRS_Mikhail_Vasilievich_Frunze
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/wrs/mikhail_vasilievich_frunze.dds"
+				large = "gfx/leaders/wrs/Portrait_WRS_mikhail_vasilievich_frunze.png"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/wrs/Portrait_WRS_mikhail_vasilievich_frunze.png"
 			}
 		}
 		country_leader = {
@@ -15,7 +15,7 @@ characters = {
 			desc = "POLITICS_MIKHAIL_FRUNZE_DESC"
 			ideology = 
             traits = {
-                
+
             }
 			id = -1
 		}
@@ -58,5 +58,6 @@ characters = {
 			
 		}
     }
+    
 }
 
