@@ -117,6 +117,9 @@ characters = {
 
 			}
 		}
+		advisior = {
+			slot = 
+		}
 		corps_commander = {
 			traits = {  }
 			skill = 
