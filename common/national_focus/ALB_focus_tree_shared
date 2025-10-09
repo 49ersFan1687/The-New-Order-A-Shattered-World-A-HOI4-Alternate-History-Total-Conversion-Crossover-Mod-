@@ -12,6 +12,5 @@ shared_focus = {
 				country_event = { id = CAL.1 }
 			}
 		}
-	}
-    
+	}   
 }
