@@ -8,4 +8,4 @@ tags={
 }
 name="Fall of Imperialism: A Shattered World"
 supported_version="1.16.10"
-picture = 
+picture = fallofimperialismthumbnail.png
