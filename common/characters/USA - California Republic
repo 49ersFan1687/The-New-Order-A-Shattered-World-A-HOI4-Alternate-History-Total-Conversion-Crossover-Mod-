@@ -387,18 +387,35 @@ characters = {
 		name = CAL_Ernest_Joseph_King
 		portraits = {
 			army = {
-
+				large = 
+				small =
 			}
 			civilian = {
-
+				small = 
 			}
 		}
 		navy_leader = {
 			desc = 
+			traits = {  }
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
 
 		}
+		advisior = { 
+			slot = 
+			idea_token = 
+			ledger = navy
+			allowed = { original_tag = CAL }
+			traits = {
+
+			}
+		 }
 	}
-Chester William Nimitz
+	CAL_Chester_William_Nimitz = {
+
+	}
 William Fredrick Halsey Jr.
 Samuel Lee Gravely Jr.
 Arleigh Albert Burke
