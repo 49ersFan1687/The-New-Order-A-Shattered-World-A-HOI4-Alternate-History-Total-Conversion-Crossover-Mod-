@@ -192,7 +192,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_a_nonexistant_navy
+	id = CAL_a_grounded_navy
 	icon = GFX_alone_and_isolated
 	cost = 5
 	prerequisite = {
@@ -226,7 +226,7 @@ shared_focus = {
         focus = CAL_grounded_air_force
     }
     prerequisite = {
-        focus = CAL_a_nonexistant_navy
+        focus = CAL_a_grounded_navy
     }
     prerequisite = {
         focus = CAL_nonexistant_bereaucracy
