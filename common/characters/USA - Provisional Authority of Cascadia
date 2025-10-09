@@ -1,6 +1,6 @@
 characters = {
 
-    # country leaders #
+    # AKB Clique #
     CAS_atsuko_maeda = {
         name = CAS_atsuko_maeda
 		portraits = {
@@ -30,6 +30,6 @@ characters = {
 
 	CAS
 	
-    # Generals and Admirals #
+    # Crystal Prep Clique #
 
 }
