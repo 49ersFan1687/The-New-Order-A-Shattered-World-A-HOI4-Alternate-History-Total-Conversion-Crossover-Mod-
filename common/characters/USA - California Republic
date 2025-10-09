@@ -521,7 +521,41 @@ characters = {
 
 		}
 	}
-	Arleigh Albert Burke
-	Issac Campbell Kidd Sr.
+	CAL_Arleigh_Albert_Burke = {
+		name = CAL = CAL_Arleigh_Albert_Burke
+		portraits = {
+			army = {
+				large = 
+				small =
+			}
+		}
+		navy_leader = {
+			desc = 
+			traits = {  }
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
+
+		}
+	}
+	CAL_Issac_Campbell_Kidd_Sr = {
+		name = CAL_Issac_Campbell_Kidd_Sr
+		portraits = {
+			army = {
+				large = 
+				small =
+			}
+		}
+		navy_leader = {
+			desc = 
+			traits = {  }
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
+
+		}
+	}
 
 }
