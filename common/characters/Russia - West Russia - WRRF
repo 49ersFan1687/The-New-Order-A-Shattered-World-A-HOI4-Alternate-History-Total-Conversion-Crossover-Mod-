@@ -1,4 +1,6 @@
-WRS_Mikhail_Vasilievich_Frunze = { 
+characters = {
+    # Country Leaders #
+    WRS_Mikhail_Vasilievich_Frunze = { 
 		name = WRS_Mikhail_Vasilievich_Frunze
 		portraits = {
 			civilian = {
@@ -23,3 +25,7 @@ WRS_Mikhail_Vasilievich_Frunze = {
 			logistics_skill = 
 		}
 	}
+
+
+}
+
