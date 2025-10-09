@@ -1,5 +1,17 @@
 shared_focus = {
     id = ALB_death_to_fascism_freedom_to_the_people
     icon = GFX
+    cost = 5
+	x = 0
+	y = 0
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus ALB_death_to_fascism_freedom_to_the_people"
+		custom_effect_tooltip = CAL_the_long_retreat_west_tooltip
+        hidden_effect = {
+			CAL = {
+				country_event = { id = CAL.1 }
+			}
+		}
+	}
     
 }
