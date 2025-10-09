@@ -1,0 +1,25 @@
+WRS_Mikhail_Vasilievich_Frunze = { 
+		name = WRS_Mikhail_Vasilievich_Frunze
+		portraits = {
+			civilian = {
+				large = 
+			}
+			army = {
+				large = 
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "POLITICS_MIKHAIL_FRUNZE_DESC"
+			ideology = 
+			id = -1
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
