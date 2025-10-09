@@ -10,7 +10,7 @@ focus_tree = {
         }
 	}
     default = no
-	shared_focus = ALB_death_to_facism!_freedom_to_the_people!
+	shared_focus = ALB_death_to_fascism_freedom_to_the_people
 
     continuous_focus_position = { x = 2500 y = 50 }
 }
