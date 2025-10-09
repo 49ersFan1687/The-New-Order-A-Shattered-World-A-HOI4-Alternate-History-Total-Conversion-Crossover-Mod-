@@ -473,10 +473,55 @@ characters = {
 			}
 		 }
 	}
-	CAL_William_Fredrick_Halsey Jr.
-Samuel Lee Gravely Jr.
-Arleigh Albert Burke
+	CAL_William_Fredrick_Halsey_Jr = {
+		name = CAL = CAL_William_Fredrick_Halsey_Jr
+		portraits = {
+			army = {
+				large = 
+				small =
+			}
+			civilian = {
+				small = 
+			}
+		}
+		navy_leader = {
+			desc = 
+			traits = {  }
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
 
-Issac Campbell Kidd Sr.
+		}
+		advisior = { 
+			slot = 
+			idea_token = 
+			ledger = navy
+			allowed = { original_tag = CAL }
+			traits = {
+
+			}
+		 }
+	}
+	CAL_Samuel_Lee_Gravely_Jr = {
+		name = CAL = CAL_Samuel_Lee_Gravely_Jr
+		portraits = {
+			army = {
+				large = 
+				small =
+			}
+		}
+		navy_leader = {
+			desc = 
+			traits = {  }
+			attack_skill = 
+			defense_skill = 
+			maneuvering_skill = 
+			coordination_skill =
+
+		}
+	}
+	Arleigh Albert Burke
+	Issac Campbell Kidd Sr.
 
 }
