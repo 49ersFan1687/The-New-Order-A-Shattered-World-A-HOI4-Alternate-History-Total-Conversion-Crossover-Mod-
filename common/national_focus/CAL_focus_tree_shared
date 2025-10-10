@@ -278,7 +278,7 @@ shared_focus = {
 	}
 	x = 1.5
 	y = 1
-    relative_position_id = CAL_what_the_absolute_fuck_are_we_going_to_do_now
+    relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
