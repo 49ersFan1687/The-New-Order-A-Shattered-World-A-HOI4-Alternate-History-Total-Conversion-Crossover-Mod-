@@ -114,11 +114,20 @@ characters = {
 		name = CAL_George_Smith_Patton_Jr
 		portraits = {
 			army = {
-
+				large = "gfx/leaders/CAL/Portrait_CAL_George_Smith_Patton_Jr"
 			}
 		}
 		advisior = {
-			slot = 
+			slot = theorist
+			idea_token = George_Smith_Patton_Jr
+			ledger = army
+				allowed = {
+					original_tag = USA
+				}
+
+				traits = {
+					
+				}
 		}
 		corps_commander = {
 			traits = {  }
