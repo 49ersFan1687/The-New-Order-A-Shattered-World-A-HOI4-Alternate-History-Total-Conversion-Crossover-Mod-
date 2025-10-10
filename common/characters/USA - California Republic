@@ -57,12 +57,12 @@ characters = {
 			slot = 
 		}
 		field_marshal = {
-			traits = { career_officer }
-			skill = 
-			attack_skill = 
-			defense_skill = 
-			planning_skill = 
-			logistics_skill = 
+			traits = { logistics_wizard offensive_doctrine panzer_leader career_officer organizer politically_connected }
+			skill = 5
+			attack_skill = 5
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
 		}
 	}
 	CAL_George_Catlett_Marshall = {
