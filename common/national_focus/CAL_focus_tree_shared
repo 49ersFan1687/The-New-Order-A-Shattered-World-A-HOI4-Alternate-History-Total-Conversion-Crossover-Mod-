@@ -168,7 +168,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_grounded_air_force
+	id = CAL_destroyed_air_force
 	icon = GFX_alone_and_isolated
 	cost = 5
 	prerequisite = {
@@ -216,14 +216,14 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_what_the_absolute_fuck_are_we_going_to_do_now
+	id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	icon = GFX_alone_and_isolated
 	cost = 5
 	prerequisite = {
 		focus = CAL_destroyed_army
 	}
     prerequisite = {
-        focus = CAL_grounded_air_force
+        focus = CAL_destroyed_air_force
     }
     prerequisite = {
         focus = CAL_a_grounded_navy
@@ -253,11 +253,11 @@ shared_focus = {
 	icon = GFX_alone_and_isolated
 	cost = 5
 	prerequisite = {
-		focus = CAL_what_the_absolute_fuck_are_we_going_to_do_now
+		focus = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	}
 	x = -1.5
 	y = 1
-    relative_position_id = CAL_what_the_absolute_fuck_are_we_going_to_do_now
+    relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
@@ -274,7 +274,7 @@ shared_focus = {
 	icon = GFX_alone_and_isolated
 	cost = 5
 	prerequisite = {
-		focus = CAL_what_the_absolute_fuck_are_we_going_to_do_now
+		focus = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	}
 	x = 1.5
 	y = 1
@@ -302,7 +302,7 @@ shared_focus = {
 	}
 	x = 0
 	y = 2
-    relative_position_id = CAL_what_the_absolute_fuck_are_we_going_to_do_now
+    relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
