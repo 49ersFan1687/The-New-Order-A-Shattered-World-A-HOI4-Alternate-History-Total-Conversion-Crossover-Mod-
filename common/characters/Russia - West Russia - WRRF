@@ -1,5 +1,34 @@
 characters = {
     # Country Leaders #
+	WRS_Semyon_Mikhailovich_Budyonny = {
+		name = WRS_Semyon_Mikhailovich_Budyonny
+		portraits = {
+			civilian = {
+
+			}
+			army = {
+
+			}
+		}
+		country_leader = {
+			expire = "1999.1.1"
+			desc = "POLITICS_SEMYON_BUDYONNY_DESC"
+			ideology = 
+            traits = {
+
+            }
+			id = -1
+		}
+		field_marshal = {
+			traits = {  }
+			skill = 
+			attack_skill = 
+			defense_skill = 
+			planning_skill = 
+			logistics_skill = 
+		}
+	}
+
     WRS_Mikhail_Vasilievich_Frunze = { 
 		name = WRS_Mikhail_Vasilievich_Frunze
 		portraits = {
