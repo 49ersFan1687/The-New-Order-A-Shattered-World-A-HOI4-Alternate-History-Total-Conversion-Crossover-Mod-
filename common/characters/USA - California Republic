@@ -57,7 +57,7 @@ characters = {
 			slot = 
 		}
 		field_marshal = {
-			traits = { logistics_wizard offensive_doctrine panzer_leader career_officer organizer politically_connected }
+			traits = { logistics_wizard offensive_doctrine panzer_leader cautious organizer politically_connected }
 			skill = 5
 			attack_skill = 5
 			defense_skill = 4
