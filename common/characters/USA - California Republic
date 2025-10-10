@@ -47,10 +47,10 @@ characters = {
 		name = CAL_Dwight_David_Eisenhower
 		portraits = {
 			civilian = {
-				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.png"
+				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
 			}
 			army = {
-				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.png"
+				large = "gfx/leaders/CAL/Portrait_CAL_Dwight_David_Eisenhower.dds"
 			}
 		}
 		advisior = {
@@ -114,7 +114,7 @@ characters = {
 		name = CAL_George_Smith_Patton_Jr
 		portraits = {
 			army = {
-				large = "gfx/leaders/CAL/Portrait_CAL_George_Smith_Patton_Jr.png"
+				large = "gfx/leaders/CAL/Portrait_CAL_George_Smith_Patton_Jr.dds"
 			}
 		}
 		advisior = {
