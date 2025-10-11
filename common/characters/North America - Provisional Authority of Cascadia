@@ -29,6 +29,7 @@ characters = {
     }
 	CAS_Yuko_Oshima = {
 		name = CAS_Yuko_Oshima
+		portraits
 	}
 	
     # Crystal Prep Clique - The Progressives #
@@ -39,6 +40,6 @@ characters = {
 
 	# Sensha-Do Clique - The Moderates #
 
-	# Hope's Peak Clique - The Corporatists #
+	# Hope Peak Clique - Corporatists #
 
 }
