@@ -18,13 +18,13 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_a_destroyed_state
+	id = CAL_cementing_temporary_military_rule
 	icon = GFX_focus_a_destroyed_state
 	cost = 5
 	prerequisite = {
 		focus = CAL_the_long_retreat_west
 	}
-	x = 1.5
+	x = 0
 	y = 1
     relative_position_id = CAL_the_long_retreat_west
 	completion_reward = {
@@ -39,13 +39,13 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_a_shattered_military
+	id = CAL_in_a_greater_depression
 	icon = GFX_focus_a_shattered_military
 	cost = 5
 	prerequisite = {
 		focus = CAL_the_long_retreat_west
 	}
-	x = -1.5
+	x = -2
 	y = 1
     relative_position_id = CAL_the_long_retreat_west
 	completion_reward = {
@@ -60,7 +60,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_barely_no_industry_and_in_a_depresssion
+	id = CAL_barely_no_industry
 	icon = GFX_focus_barely_no_industry
 	cost = 5
 	prerequisite = {
@@ -106,9 +106,9 @@ shared_focus = {
 	icon = GFX_alone_and_isolated
 	cost = 5
 	prerequisite = {
-		focus = CAL_a_destroyed_state
+		focus = CAL_the_long_retreat_west
 	}
-	x = 1
+	x = 2
 	y = 1
     relative_position_id = CAL_a_destroyed_state
 	completion_reward = {
@@ -123,15 +123,18 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_radio_silence_from_outside
+	id = CAL_all_on_our_own
 	icon = GFX_alone_and_isolated
 	cost = 5
 	prerequisite = {
-		focus = CAL_alone_and_isolated
+		focus = CAL_in_a_greater_depression
 	}
-	x = 1
+	prerequisite = {
+		focus = CAL_barely_no_industry
+	}
+	x = 0
 	y = 1
-    relative_position_id = CAL_alone_and_isolated
+    relative_position_id = CAL_in_a_greater_depression
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
@@ -144,72 +147,45 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_destroyed_army
+	id = CAL_radio_silence_from_outside
 	icon = GFX_alone_and_isolated
 	cost = 5
 	prerequisite = {
-		focus = CAL_a_shattered_military
+		focus = CAL_cementing_temporary_military_rule
 	}
-    prerequisite = {
-        focus = CAL_barely_no_industry
-    }
-	x = -1
+	x = 0
 	y = 1
-    relative_position_id = CAL_barely_no_industry_and_in_a_depresssion
+    relative_position_id = CAL_cementing_temporary_military_rule
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.7 }
+				country_event = { id = CAL.6 }
 			}
 		}
 	}
 }
 
 shared_focus = {
-	id = CAL_destroyed_air_force
+	id = CAL_chaos_is_everywhere
 	icon = GFX_alone_and_isolated
 	cost = 5
 	prerequisite = {
-		focus = CAL_a_shattered_military
+		focus = CAL_alone_and_isolated
 	}
-    prerequisite = {
-        focus = CAL_barely_no_industry_and_in_a_depresssion
-    }
-	x = 1.3
+	prerequisite = {
+		focus = CAL_nonexistant_bereaucracy
+	}
+	x = 0
 	y = 1
-    relative_position_id = CAL_barely_no_industry_and_in_a_depresssion
+    relative_position_id = CAL_nonexistant_bereaucracy
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
 		hidden_effect = {
 			CAL = {
-				country_event = { id = CAL.8 }
-			}
-		}
-	}
-}
-
-shared_focus = {
-	id = CAL_a_grounded_navy
-	icon = GFX_alone_and_isolated
-	cost = 5
-	prerequisite = {
-		focus = CAL_a_shattered_military
-	}
-    prerequisite = {
-        focus = CAL_barely_no_industry
-    }
-	x = 1
-	y = 1
-    relative_position_id = CAL_a_shattered_military
-	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
-		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
-		hidden_effect = {
-			CAL = {
-				country_event = { id = CAL.9 }
+				country_event = { id = CAL.6 }
 			}
 		}
 	}
@@ -219,20 +195,14 @@ shared_focus = {
 	id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	icon = GFX_alone_and_isolated
 	cost = 5
-	prerequisite = {
-		focus = CAL_destroyed_army
-	}
-    prerequisite = {
-        focus = CAL_destroyed_air_force
-    }
-    prerequisite = {
-        focus = CAL_a_grounded_navy
-    }
-    prerequisite = {
-        focus = CAL_nonexistant_bereaucracy
-    }
     prerequisite = {
         focus = CAL_radio_silence_from_outside
+    }
+	prerequisite = {
+        focus = CAL_all_on_our_own
+    }
+	prerequisite = {
+        focus = CAL_chaos_is_everywhere
     }
 	x = 0
 	y = 3
@@ -255,7 +225,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	}
-	x = -1.5
+	x = -1
 	y = 1
     relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
@@ -276,7 +246,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	}
-	x = 1.5
+	x = 1
 	y = 1
     relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
