@@ -1,7 +1,7 @@
 characters = {
 
     # AKB Clique #
-    CAS_atsuko_maeda = {
+    CAS_Atsuko_Maeda = {
         name = CAS_atsuko_maeda
 		portraits = {
 			civilian = {
@@ -27,9 +27,18 @@ characters = {
 			logistics_skill =
 		}
     }
-
-	CAS
+	CAS_Yuko_Oshima = {
+		name = CAS_Yuko_Oshima
+	}
 	
-    # Crystal Prep Clique #
+    # Crystal Prep Clique - The Progressives #
+
+	# Vytal Clique - The Militarists #
+
+	# Kuoh Clique - The Conservatives #
+
+	# Sensha-Do Clique - The Moderates #
+
+	# Hope's Peak Clique - The Corporatists #
 
 }
