@@ -25,5 +25,5 @@ focus_tree = {
         }
     }
     default = no
-    shared_focus = CAL
+    shared_focus = CAL_rebuilding_the_economy
 }
