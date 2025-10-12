@@ -10,15 +10,15 @@ ideas = {
 
             }
         }
-        CAL_Pattons_vision1 = {
+        CAL_Pattons_vision1 = { # Patton's Army Reform Plan
             on_add = 
             allowed = { always = no }
             picture = 
             modifier = {
-                
+
             }
         }
-        CAL_Marshsalls_vision1 = {
+        CAL_Marshsalls_vision1 = { # Marshall's Army Reform Plan
             on_add = 
             allowed = { always = no }
             picture = 
