@@ -1,3 +1,13 @@
 ideas = {
-    
+    country = {
+        ### Army Reform Ideas ###
+        CAS_Second_Continental_Army_plan1 = {
+             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAS_Second_Continental_Army_plan1" }
+             allowed = { always = no }
+             picture = CAS_Second_Continental_Army_plan
+             modifier = {
+                
+            }
+        }
+    }
 }
