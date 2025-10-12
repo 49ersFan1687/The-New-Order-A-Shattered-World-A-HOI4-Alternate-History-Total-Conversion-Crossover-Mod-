@@ -2,7 +2,7 @@ ideas = {
     ### Country Ideas ###
     country = {
         ### Army Reform Tree ###
-        CAL_Eisenhowers_vision1 = {
+        CAL_Eisenhowers_vision1 = { # Eisenhower's Army Reform Plan
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision1}
             allowed = { always = no }
             picture = 
@@ -12,6 +12,19 @@ ideas = {
         }
         CAL_Pattons_vision1 = {
             on_add = 
+            allowed = { always = no }
+            picture = 
+            modifier = {
+                
+            }
+        }
+        CAL_Marshsalls_vision1 = {
+            on_add = 
+            allowed = { always = no }
+            picture = 
+            modifier = {
+
+            }
         }
     }
 }
