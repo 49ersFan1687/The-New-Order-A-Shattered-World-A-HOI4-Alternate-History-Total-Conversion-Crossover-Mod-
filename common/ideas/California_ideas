@@ -28,7 +28,23 @@ ideas = {
 
             }
         }
+        CAL_Pattons_vision2 = { # Patton's Army Reform Plan - Army of the Future - Part Two
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision1" }
+            allowed = { always = no }
+            picture = patton_plan
+            modifier = {
+
+            }
+        }
         CAL_Marshsalls_vision1 = { # Marshall's Army Reform Plan - Modern Minutemen - Part One
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision1" }
+            allowed = { always = no }
+            picture = marshall_plan
+            modifier = {
+
+            }
+        }
+        CAL_Marshsalls_vision2 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Two
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision1" }
             allowed = { always = no }
             picture = marshall_plan
