@@ -17,6 +17,14 @@ ideas = {
                 
             }
         }
+         CAS_Second_Continental_Army_plan3 = {
+             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAS_Second_Continental_Army_plan3" }
+             allowed = { always = no }
+             picture = CAS_Second_Continental_Army_plan
+             modifier = {
+                
+            }
+        }
         ### Air Force Reform Ideas ###
         ### Navy Reform Ideas ###
     }
