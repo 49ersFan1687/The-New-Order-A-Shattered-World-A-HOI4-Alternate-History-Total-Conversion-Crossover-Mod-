@@ -7,7 +7,7 @@ ideas = {
             allowed = { always = no }
             picture = eisenhower_plan
             modifier = {
-
+                
             }
 
         }
@@ -27,7 +27,7 @@ ideas = {
 
             }
         }
-        ### Air Force Ideas ###
+        ### Air Force Reform Ideas ###
         ### Navy Reform Ideas ###
     }
 }
