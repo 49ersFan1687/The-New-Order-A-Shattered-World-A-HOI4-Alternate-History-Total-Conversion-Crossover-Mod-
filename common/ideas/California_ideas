@@ -5,14 +5,15 @@ ideas = {
         CAL_Eisenhowers_vision1 = { # Eisenhower's Army Reform Plan
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision1}
             allowed = { always = no }
-            picture = 
+            picture = eisenhower_plan
             modifier = {
+            
             }
         }
         CAL_Pattons_vision1 = { # Patton's Army Reform Plan
             on_add = 
             allowed = { always = no }
-            picture = 
+            picture = patton_plan
             modifier = {
 
             }
@@ -20,7 +21,7 @@ ideas = {
         CAL_Marshsalls_vision1 = { # Marshall's Army Reform Plan
             on_add = 
             allowed = { always = no }
-            picture = 
+            picture = marshall_plan
             modifier = {
 
             }
