@@ -9,7 +9,6 @@ ideas = {
             modifier = {
                 
             }
-
         }
         CAL_Eisenhowers_vision2 = { # Eisenhower's Army Reform Plan - Return to Form - Part Two
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision1" }
@@ -18,7 +17,14 @@ ideas = {
             modifier = {
                 
             }
-
+        }
+        CAL_Eisenhowers_vision3 = { # Eisenhower's Army Reform Plan - Return to Form - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision1" }
+            allowed = { always = no }
+            picture = eisenhower_plan
+            modifier = {
+                
+            }
         }
         CAL_Pattons_vision1 = { # Patton's Army Reform Plan - Army of the Future - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision1" }
@@ -27,7 +33,6 @@ ideas = {
             modifier = {
 
             }
-            
         }
         CAL_Pattons_vision2 = { # Patton's Army Reform Plan - Army of the Future - Part Two
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision1" }
