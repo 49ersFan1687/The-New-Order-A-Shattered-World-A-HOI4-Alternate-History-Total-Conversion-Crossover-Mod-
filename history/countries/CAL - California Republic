@@ -4,3 +4,22 @@ set_naval_oob =
 staring_train_buffer = 
 
 # Starting tech
+if = {
+    limit = {
+        NOT = { has_dlc = "No Step Back" }
+    }
+    set_technology = {
+
+    }
+}
+if = {
+    limit = {
+		has_dlc = "No Step Back"
+	}
+    set_technology = {
+
+    }
+}
+set_technology = {
+    
+}
