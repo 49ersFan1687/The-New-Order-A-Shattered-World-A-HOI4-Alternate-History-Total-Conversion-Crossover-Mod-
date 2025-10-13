@@ -9,6 +9,9 @@ ideas = {
              modifier = {
                 
             }
+            equipment_bonus = {
+                
+            }
         }
         CAS_Second_Continental_Army_plan2 = { ### If Cascadia goes with the reforms of the Second Continental Army - Part Two ###
              on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAS_Second_Continental_Army_plan2" }
