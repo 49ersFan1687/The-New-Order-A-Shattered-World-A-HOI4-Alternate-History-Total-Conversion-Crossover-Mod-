@@ -2,7 +2,7 @@ ideas = {
     ### Country Ideas - Provisional Authority of Cascadia ###
     country = {
         ### Army Reform Ideas ###
-        CAS_Second_Continental_Army_plan1 = { ### 
+        CAS_Second_Continental_Army_plan1 = { ### If Cascadia goes with the reforms of the Second Continental Army - Part One ###
              on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAS_Second_Continental_Army_plan1" }
              allowed = { always = no }
              picture = CAS_Second_Continental_Army_plan
@@ -18,7 +18,7 @@ ideas = {
                 
             }
         }
-         CAS_Second_Continental_Army_plan3 = {
+        CAS_Second_Continental_Army_plan3 = {
              on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAS_Second_Continental_Army_plan3" }
              allowed = { always = no }
              picture = CAS_Second_Continental_Army_plan
@@ -26,7 +26,10 @@ ideas = {
                 
             }
         }
+        
         ### Air Force Reform Ideas ###
         ### Navy Reform Ideas ###
+        ### Military Industrial Complex Ideas ###
+        ### Industrial Companies ###
     }
 }
