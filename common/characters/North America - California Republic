@@ -69,10 +69,10 @@ characters = {
 		name = CAL_George_Catlett_Marshall
 		portraits = {
 			civilian = {
-				large = 
+				large = "gfx/leaders/CAL/Portrait_CAL_George_Catlett_Marshall.dds"
 			}
 			army = {
-				large = 
+				large = "gfx/leaders/CAL/Portrait_CAL_George_Catlett_Marshall.dds"
 			}
 		}
 		advisior = {
@@ -91,10 +91,10 @@ characters = {
 		name = CAL_Omar_Nelson_Bradley
 		portraits = {
 			civilian = {
-
+				large = "gfx/leaders/CAL/Portrait_CAL_Omar_Nelson_Bradley.dds"
 			}
 			army = {
-
+				large = "gfx/leaders/CAL/Portrait_CAL_Omar_Nelson_Bradley.dds"
 			}
 		}
 		advisior = {
