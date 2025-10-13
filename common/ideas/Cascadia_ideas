@@ -10,7 +10,7 @@ ideas = {
                 
             }
         }
-        CAS_Second_Continental_Army_plan2 = {
+        CAS_Second_Continental_Army_plan2 = { ### If Cascadia goes with the reforms of the Second Continental Army - Part Two ###
              on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAS_Second_Continental_Army_plan2" }
              allowed = { always = no }
              picture = CAS_Second_Continental_Army_plan
@@ -18,7 +18,7 @@ ideas = {
                 
             }
         }
-        CAS_Second_Continental_Army_plan3 = {
+        CAS_Second_Continental_Army_plan3 = { ### If Cascadia goes with the reforms of the Second Continental Army - Part Three ###
              on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAS_Second_Continental_Army_plan3" }
              allowed = { always = no }
              picture = CAS_Second_Continental_Army_plan
