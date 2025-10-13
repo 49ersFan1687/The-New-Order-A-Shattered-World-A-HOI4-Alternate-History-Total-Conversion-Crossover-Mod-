@@ -53,6 +53,11 @@ ideas = {
             modifier = {
 
             }
+            equipment_bonus = {
+                armor = {
+                    
+                }
+            }
         }
         CAL_Pattons_vision2 = { # Patton's Army Reform Plan - Army of the Future - Part Two
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision2" }
