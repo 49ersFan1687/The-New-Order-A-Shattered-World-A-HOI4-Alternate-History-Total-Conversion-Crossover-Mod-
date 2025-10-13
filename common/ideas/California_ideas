@@ -12,6 +12,7 @@ ideas = {
                 supply_consumption_factor = -0.025
                 out_of_supply_factor = 0.05
                 army_org_Factor = 0.025
+                max_command_power = 20
             }
             equipment_bonus = {
                 artillery_equipment = {
