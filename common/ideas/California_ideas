@@ -7,7 +7,9 @@ ideas = {
             allowed = { always = no }
             picture = eisenhower_plan
             modifier = {
-                
+                max_planning = 0.025
+                planning_speed = 0.05
+
             }
         }
         CAL_Eisenhowers_vision2 = { # Eisenhower's Army Reform Plan - Return to Form - Part Two
@@ -59,7 +61,15 @@ ideas = {
             }
         }
         CAL_Marshsalls_vision2 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Two
-            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision1" }
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision2" }
+            allowed = { always = no }
+            picture = marshall_plan
+            modifier = {
+
+            }
+        }
+        CAL_Marshsalls_vision3 = { # Marshall's Army Reform Plan - Modern Minutemen - Part Three
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision3" }
             allowed = { always = no }
             picture = marshall_plan
             modifier = {
