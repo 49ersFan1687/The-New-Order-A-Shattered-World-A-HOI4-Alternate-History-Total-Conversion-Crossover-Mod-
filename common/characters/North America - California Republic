@@ -158,7 +158,7 @@ characters = {
 		name = CAL_Smedley_Darlington_Butler
 		portraits = {
 			army = {
-				invite = "gfx/leaders/CAL/Portrait_CAL_Smedley_Darlington_Butler.png"
+				invite = "gfx/leaders/CAL/Portrait_CAL_Smedley_Darlington_Butler.dds"
 			}
 		}
 		corps_commander = {
