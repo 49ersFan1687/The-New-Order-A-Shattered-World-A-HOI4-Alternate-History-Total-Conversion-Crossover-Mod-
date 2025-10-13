@@ -14,6 +14,7 @@ ideas = {
                 army_org_Factor = 0.025
                 max_command_power = 20
                 army_attack_factor = 0.025
+                conscription_factor = 0.02
             }
             equipment_bonus = {
                 artillery_equipment = {
