@@ -20,6 +20,9 @@ ideas = {
                     build_cost_ic = -0.05
                     instant = yes
                 }
+                infantry_equipment = {
+                    build_cost_ic = -0.05
+                }
             }
         }
         CAL_Eisenhowers_vision2 = { # Eisenhower's Army Reform Plan - Return to Form - Part Two
