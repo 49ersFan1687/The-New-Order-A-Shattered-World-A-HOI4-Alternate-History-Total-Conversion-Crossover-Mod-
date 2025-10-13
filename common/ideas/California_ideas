@@ -55,7 +55,7 @@ ideas = {
             }
             equipment_bonus = {
                 armor = {
-                    
+
                 }
             }
         }
@@ -101,5 +101,6 @@ ideas = {
         }
         ### Air Force Reform Ideas ###
         ### Navy Reform Ideas ###
+        ### Military Industrial Complex Ideas ###
     }
 }
