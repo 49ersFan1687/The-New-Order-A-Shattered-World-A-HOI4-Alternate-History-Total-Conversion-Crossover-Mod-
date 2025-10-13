@@ -13,6 +13,7 @@ ideas = {
                 out_of_supply_factor = 0.05
                 army_org_Factor = 0.025
                 max_command_power = 20
+                army_attack_factor = 0.025
             }
             equipment_bonus = {
                 artillery_equipment = {
@@ -23,7 +24,7 @@ ideas = {
                 }
                 infantry_equipment = {
                     soft_attack = 0.01
-                    build_cost_ic = -0.05
+                    build_cost_ic = -0.025
                     instant = yes
                 }
             }
