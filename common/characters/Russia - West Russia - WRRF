@@ -28,7 +28,6 @@ characters = {
 			logistics_skill = 
 		}
 	}
-
     WRS_Mikhail_Vasilievich_Frunze = { 
 		name = WRS_Mikhail_Vasilievich_Frunze
 		portraits = {
@@ -58,7 +57,7 @@ characters = {
 		}
 	}
 
-    WRS_Georgy_Zhukov = {
+    WRS_Georgy_Konstantinovich_Zhukov = {
 		name = WRS_Georgy_Zhukov
 		portraits = {
 			civilian = {
@@ -87,7 +86,6 @@ characters = {
 			
 		}
     }
-    
     WRS_Mikhail_Tukhachevsky = {
 		name = WRS_Mikhail_Tukhachevsky
 		portraits = {
@@ -116,5 +114,6 @@ characters = {
 			logistics_skill = 
 		}
 	}
+	WRS_Nestor
 }
 
