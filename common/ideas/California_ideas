@@ -111,14 +111,19 @@ ideas = {
         CAL_Moncels_Advice = { #General Moncel has been chosen to help Improve the Second Continental Army
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Moncels_Advice" }
             allowed = { always = no }
-            picture = alexander_plan
+            picture = moncel_plan
             modifier = {
 
             }
 
         }
         CAL_Simonds_Advice = { #General Simonds has been chosen to help Improve the Second Continental Army
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Simondss_Advice" }
+            allowed = { always = no }
+            picture = Simonds_plan
+            modifier = {
 
+            }
         }
         ### Air Force Reform Ideas ###
         ### Navy Reform Ideas ###
