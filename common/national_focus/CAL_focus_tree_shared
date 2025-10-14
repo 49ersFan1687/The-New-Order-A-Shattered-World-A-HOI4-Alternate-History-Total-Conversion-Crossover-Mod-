@@ -4,7 +4,11 @@ shared_focus = {
 	id = CAL_the_long_retreat_west
 	icon = GFX_
 	cost = 5
-	x = 0
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	x = 15
 	y = 0
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_long_retreat_west"
@@ -21,6 +25,10 @@ shared_focus = {
 	id = CAL_cementing_temporary_military_rule
 	icon = GFX_focus_a_destroyed_state
 	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_the_long_retreat_west
 	}
@@ -42,6 +50,10 @@ shared_focus = {
 	id = CAL_in_a_greater_depression
 	icon = GFX_focus_a_shattered_military
 	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_the_long_retreat_west
 	}
@@ -63,6 +75,10 @@ shared_focus = {
 	id = CAL_barely_no_industry
 	icon = GFX_focus_barely_no_industry
 	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_the_long_retreat_west
 	}
@@ -84,6 +100,10 @@ shared_focus = {
 	id = CAL_alone_and_isolated
 	icon = GFX_alone_and_isolated
 	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_the_long_retreat_west
 	}
@@ -105,12 +125,16 @@ shared_focus = {
 	id = CAL_nonexistant_bereaucracy
 	icon = GFX_alone_and_isolated
 	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_the_long_retreat_west
 	}
 	x = 2
 	y = 1
-    relative_position_id = CAL_a_destroyed_state
+    relative_position_id = CAL_the_long_retreat_west
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_alone_and_isolated"
 		custom_effect_tooltip = CAL_a_destroyed_state_tooltip
@@ -126,6 +150,10 @@ shared_focus = {
 	id = CAL_all_on_our_own
 	icon = GFX_alone_and_isolated
 	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_in_a_greater_depression
 	}
@@ -150,6 +178,10 @@ shared_focus = {
 	id = CAL_radio_silence_from_outside
 	icon = GFX_alone_and_isolated
 	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_cementing_temporary_military_rule
 	}
@@ -171,6 +203,10 @@ shared_focus = {
 	id = CAL_chaos_is_everywhere
 	icon = GFX_alone_and_isolated
 	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_alone_and_isolated
 	}
@@ -195,6 +231,10 @@ shared_focus = {
 	id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	icon = GFX_alone_and_isolated
 	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
     prerequisite = {
         focus = CAL_radio_silence_from_outside
     }
@@ -222,10 +262,14 @@ shared_focus = {
 	id = CAL_restablish_radio_contact_with_canada
 	icon = GFX_alone_and_isolated
 	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	}
-	x = -1
+	x = -1.5
 	y = 1
     relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
@@ -243,10 +287,14 @@ shared_focus = {
 	id = CAL_contact_the_remnants
 	icon = GFX_alone_and_isolated
 	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	}
-	x = 1
+	x = 1.5
 	y = 1
     relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
@@ -264,6 +312,10 @@ shared_focus = {
 	id = CAL_begin_turning_southern_california_into_a_bastion
 	icon = GFX_alone_and_isolated
 	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
 	prerequisite = {
 		focus = CAL_restablish_radio_contact_with_canada
 	}
@@ -283,3 +335,20 @@ shared_focus = {
 		}
 	}
 }
+
+shared_focus = {
+	id = CAL_alexanders_military_mission
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		has_completed_focus = CAL_restablish_radio_contact_with_canada
+	}
+	x = -2
+	y = 1
+	relative_position_id = CAL_barely_no_industry
+}
+
