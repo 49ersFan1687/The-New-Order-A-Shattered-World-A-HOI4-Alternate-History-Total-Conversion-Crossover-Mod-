@@ -58,7 +58,7 @@ characters = {
 	}
 
     WRS_Georgy_Konstantinovich_Zhukov = {
-		name = WRS_Georgy_Zhukov
+		name = WRS_Georgy_Konstantinovich_Zhukov
 		portraits = {
 			civilian = {
 				large = 
@@ -86,8 +86,8 @@ characters = {
 			
 		}
     }
-    WRS_Mikhail_Tukhachevsky = {
-		name = WRS_Mikhail_Tukhachevsky
+    WRS_Mikhail_Nikolayevich_Tukhachevsky = {
+		name = WRS_Mikhail_Nikolayevich_Tukhachevsky
 		portraits = {
 			civilian = {
 				large = 
