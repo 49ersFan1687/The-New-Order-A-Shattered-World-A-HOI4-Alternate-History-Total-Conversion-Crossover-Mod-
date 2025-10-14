@@ -348,7 +348,7 @@ shared_focus = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
 	x = -4
-	y = 0
+	y = -1
 	relative_position_id = CAL_barely_no_industry
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_alexanders_military_mission"
@@ -371,7 +371,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_alexanders_military_mission"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_learn_from_the_canadians"
 		add_doctrine_cost_reduction = {
 			name = land_doc_bonus
 			cost_reduction = 0.5
@@ -396,11 +396,108 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_alexanders_military_mission"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_canadian_surplus_weapons"
+
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
 			amount = 1250
 			producer = CAN
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_in_the_footsteps_of_general_alexander
+	icon = GFX_
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_learn_from_the_canadians
+	}
+	prerequisite = {
+		focus = CAL_canadian_surplus_weapons
+	}
+	mutually_exclusive = {
+		focus = CAL_in_the_footsteps_of_x
+		focus = CAL_in_the_footsteps_of_z
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_alexanders_military_mission
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_in_the_footsteps_of_general_alexander"
+		add_doctrine_cost_reduction = {
+			name = cat_mobile_warfare
+			cost_reduction = 0.5
+			uses = 2
+			category = cat_mobile_warfare
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_in_the_footsteps_of_general_simonds
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_learn_from_the_canadians
+	}
+	prerequisite = {
+		focus = CAL_canadian_surplus_weapons
+	}
+	mutually_exclusive = {
+		focus = CAL_in_the_footsteps_of_general_moncel
+		focus = CAL_in_the_footsteps_of_general_alexander
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_learn_from_the_canadians
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_in_the_footsteps_of_general_simonds"
+		add_doctrine_cost_reduction = {
+			name = cat_superior_firepower
+			cost_reduction = 0.5
+			uses = 2
+			category = cat_superior_firepower
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_in_the_footsteps_of_moncel
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_learn_from_the_canadians
+	}
+	prerequisite = {
+		focus = CAL_canadian_surplus_weapons
+	}
+	mutually_exclusive = {
+		focus = CAL_in_the_footsteps_of_simmonds
+		focus = CAL_in_the_footsteps_of_general_alexander
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_canadian_surplus_weapons
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_in_the_footsteps_of_general_simonds"
+		add_doctrine_cost_reduction = {
+			name = cat_grand_battleplan
+			cost_reduction = 0.5
+			uses = 2
+			category = cat_grand_battleplan
 		}
 	}
 }
