@@ -27,3 +27,16 @@ focus_tree = {
     default = no
     shared_focus = CAL_rebuilding_the_economy
 }
+
+focus_tree = {
+    id = CAL_army_tree
+    country = {
+        factor = 0 
+        modifier = {
+            add = 10
+            tag = CAL
+        }
+    }
+    default = no
+    shared_focus = 
+}
