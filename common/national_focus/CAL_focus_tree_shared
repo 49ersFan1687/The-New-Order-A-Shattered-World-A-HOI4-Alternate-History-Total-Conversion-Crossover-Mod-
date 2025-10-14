@@ -473,7 +473,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_in_the_footsteps_of_moncel
+	id = CAL_in_the_footsteps_of_general_moncel
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -503,6 +503,56 @@ shared_focus = {
 			category = cat_grand_battleplan
 		}
 	}
+}
+
+shared_focus = {
+	id = CAL_surplus_canadian_equipment
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_in_the_footsteps_of_general_alexander
+		focus = CAL_in_the_footsteps_of_general_moncel
+		focus = CAL_in_the_footsteps_of_general_simonds
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_in_the_footsteps_of_general_simonds
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = CAL_canadian_funded_factories
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_in_the_footsteps_of_general_alexander
+		focus = CAL_in_the_footsteps_of_general_moncel
+		focus = CAL_in_the_footsteps_of_general_simonds
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_in_the_footsteps_of_general_alexander
+	completion_reward = {
+		
+	}
+}
+
+shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	id = CAL_
 }
 
 shared_focus = {
