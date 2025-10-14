@@ -462,6 +462,7 @@ shared_focus = {
 	relative_position_id = CAL_learn_from_the_canadians
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_in_the_footsteps_of_general_simonds"
+		add_idea = CAL_moncels_advice
 		add_doctrine_cost_reduction = {
 			name = cat_superior_firepower
 			cost_reduction = 0.5
