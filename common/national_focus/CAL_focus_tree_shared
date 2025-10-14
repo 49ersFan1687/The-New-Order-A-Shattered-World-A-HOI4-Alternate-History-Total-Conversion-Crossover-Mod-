@@ -522,7 +522,16 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_in_the_footsteps_of_general_simonds
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_surplus_canadian_equipment"
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 500
+			producer = CAN
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 150
+		}
 	}
 }
 
