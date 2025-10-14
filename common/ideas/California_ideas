@@ -1,7 +1,7 @@
 ideas = {
     ### Country Ideas - California Republic ###
     country = {
-        ### Army Reform Ideas ###
+        ### Army Reform Ideas - Dwight David Eisenhower###
         CAL_Eisenhowers_vision1 = { # Eisenhower's Army Reform Plan - Return to Form - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Eisenhowers_vision1" }
             allowed = { always = no }
@@ -46,6 +46,7 @@ ideas = {
                 
             }
         }
+        ### Army Reform Ideas - George Smith Patton Jr. ###
         CAL_Pattons_vision1 = { # Patton's Army Reform Plan - Army of the Future - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Pattons_vision1" }
             allowed = { always = no }
@@ -75,6 +76,7 @@ ideas = {
 
             }
         }
+        ### Army Reform Ideas - George Catlett Marshall ###
         CAL_Marshsalls_vision1 = { # Marshall's Army Reform Plan - Modern Minutemen - Part One
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Marshalls_vision1" }
             allowed = { always = no }
