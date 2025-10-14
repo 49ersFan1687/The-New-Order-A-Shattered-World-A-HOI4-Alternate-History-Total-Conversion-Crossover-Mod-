@@ -429,6 +429,7 @@ shared_focus = {
 	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_in_the_footsteps_of_general_alexander"
+		add_idea = CAL_alexanders_advice
 		add_doctrine_cost_reduction = {
 			name = cat_mobile_warfare
 			cost_reduction = 0.5
@@ -514,7 +515,7 @@ shared_focus = {
 		has_completed_focus = CAL_contact_the_remnants
 	}
 	x = 4
-	y = 0
+	y = -1
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_dreams_of_a_united_anti_nazi_front"
