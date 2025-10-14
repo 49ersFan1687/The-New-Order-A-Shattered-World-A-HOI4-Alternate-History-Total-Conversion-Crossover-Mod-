@@ -372,6 +372,7 @@ shared_focus = {
 	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_learn_from_the_canadians"
+		army_experience = 50
 		add_doctrine_cost_reduction = {
 			name = land_doc_bonus
 			cost_reduction = 0.5
@@ -397,11 +398,19 @@ shared_focus = {
 	relative_position_id = CAL_alexanders_military_mission
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_canadian_surplus_weapons"
-
 		add_equipment_to_stockpile = {
 			type = infantry_equipment
 			amount = 1250
 			producer = CAN
+		}
+		add_equipment_to_stockpile = {
+			type = motorized_equipment
+			amount = 500
+			producer = CAN
+		}
+		add_equipment_to_stockpile = {
+			type = artillery_equipment
+			amount = 200
 		}
 	}
 }
@@ -523,15 +532,7 @@ shared_focus = {
 	relative_position_id = CAL_in_the_footsteps_of_general_simonds
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_surplus_canadian_equipment"
-		add_equipment_to_stockpile = {
-			type = motorized_equipment
-			amount = 500
-			producer = CAN
-		}
-		add_equipment_to_stockpile = {
-			type = artillery_equipment
-			amount = 150
-		}
+		
 	}
 }
 
@@ -552,7 +553,14 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_in_the_footsteps_of_general_alexander
 	completion_reward = {
-		
+		add_offsite_building = {
+		    type = arms_factory
+			level = 1
+		}
+		add_offsite_building = {
+		    type = arms_factory
+			level = 1
+		}
 	}
 }
 
