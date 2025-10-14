@@ -56,7 +56,6 @@ characters = {
 			logistics_skill = 
 		}
 	}
-
     WRS_Georgy_Konstantinovich_Zhukov = {
 		name = WRS_Georgy_Konstantinovich_Zhukov
 		portraits = {
@@ -114,6 +113,6 @@ characters = {
 			logistics_skill = 
 		}
 	}
-	WRS_Nestor
+	
 }
 
