@@ -16,6 +16,19 @@ focus_tree = {
 }
 
 focus_tree = {
+    id = CAL_political_tree
+    country = {
+        factor = 0
+        modifier = { 
+            add = 10 
+            tag = CAL 
+        }
+    }
+    default = no
+    shared_focus = 
+}
+
+focus_tree = {
     id = CAL_economy_tree
     country = {
         factor = 0
