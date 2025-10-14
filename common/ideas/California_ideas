@@ -99,6 +99,16 @@ ideas = {
 
             }
         }
+        ### Canadian Military Mission ####
+        CAL_Alexanders_Advice = { #General Alexander has been chosen to help Improve the Second Continental Army
+
+        }
+        CAL_Moncels_Advice = { #General Moncel has been chosen to help Improve the Second Continental Army
+
+        }
+        CAL_Simonds_Advice = { #General Simonds has been chosen to help Improve the Second Continental Army
+
+        }
         ### Air Force Reform Ideas ###
         ### Navy Reform Ideas ###
         ### Military Industrial Complex Ideas ###
