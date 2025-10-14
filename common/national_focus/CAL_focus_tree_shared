@@ -347,12 +347,61 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
-	x = -3
-	y = 1
+	x = -4
+	y = 0
 	relative_position_id = CAL_barely_no_industry
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_alexanders_military_mission"
 
+	}
+}
+
+shared_focus = {
+	id = CAL_learn_from_the_canadians
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_alexanders_military_mission
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_alexanders_military_mission
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_alexanders_military_mission"
+		add_doctrine_cost_reduction = {
+			name = land_doc_bonus
+			cost_reduction = 0.5
+			uses = 2
+			category = land_doctrine
+		}
+	}
+}
+
+shared_focus = {
+	id = CAL_canadian_surplus_weapons
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_alexanders_military_mission
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_alexanders_military_mission
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_alexanders_military_mission"
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 1250
+			producer = CAN
+		}
 	}
 }
 
@@ -367,8 +416,8 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_contact_the_remnants
 	}
-	x = 3
-	y = 1
+	x = 4
+	y = 0
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_dreams_of_a_united_anti_nazi_front"
