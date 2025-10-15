@@ -565,15 +565,68 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_the_foundations_of_a_new_allied_powers
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_permanent_liason_to_america
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_a_permanent_liason_to_america
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_foundations_of_a_new_allied_powers"
+	}
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_improve_trade_relations_between_both_of_us
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_canadian_funded_factories
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_canadian_funded_factories
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improve_trade_relations_between_both_of_us"
+	}
 }
 
 shared_focus = {
-	id = CAL_dreams_of_a_united_anti_nazi_front
+	id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_foundations_of_a_new_allied_powers
+	}
+	prerequisite = {
+		focus = CAL_improve_trade_relations_between_both_of_us
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_the_foundations_of_a_new_allied_powers
+	completion_reward = {
+
+	}
+}
+
+
+shared_focus = {
+	id = CAL_dreams_of_a_united_american_anti_nazi_front
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
