@@ -1,0 +1,55 @@
+focus_tree = {
+	id = cascadia_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = CSD
+			#always = no
+		}
+	}
+	
+	default = no
+
+	continuous_focus_position = { x = 50 y = 1100 }
+
+
+
+	focus = {
+		id = CSD_start_to_recover
+		icon = GFX_fish
+		#prerequisite = { focus = }
+		#mutually_exclusive = { focus =  }
+		x = 10
+		y = 1
+
+		cost = 4
+
+		ai_will_do = {
+			factor = 1
+		}
+
+		#available = {
+		#}
+		
+		#bypass = {
+		#}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+		available_if_capitulated = no
+
+		#complete_tooltip = {
+		#}
+
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			country_event = {
+				id = CSD_event.1
+				days = 1
+			}
+		}
+	}
+
+ }
