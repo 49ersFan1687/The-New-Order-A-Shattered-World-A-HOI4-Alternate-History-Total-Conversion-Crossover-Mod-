@@ -336,7 +336,7 @@ shared_focus = {
 	}
 }
 
-
+### Canadian Interaction Focus Tree ###
 
 shared_focus = {
 	id = CAL_alexanders_military_mission
@@ -626,6 +626,7 @@ shared_focus = {
 	}
 }
 
+### Create Anti-Nazi Front Focus Tree ###
 
 shared_focus = {
 	id = CAL_dreams_of_a_united_american_anti_nazi_front
