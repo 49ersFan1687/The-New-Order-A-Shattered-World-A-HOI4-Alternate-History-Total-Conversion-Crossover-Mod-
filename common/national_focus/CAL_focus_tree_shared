@@ -665,7 +665,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_spread_anti_nazi_propaganda
+	id = CAL_spread_anti_axis_propaganda
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -684,33 +684,219 @@ shared_focus = {
 }
 
 shared_focus = {
-	
+	id = CAL_1
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_ratify_the_american_iron_front
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_ratify_the_american_iron_front
+	completion_reward = {
+
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_2
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_ratify_the_american_iron_front
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_ratify_the_american_iron_front
+	completion_reward = {
+
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_3
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_spread_anti_axis_propaganda
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_spread_anti_axis_propaganda
+	completion_reward = {
+
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_4
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_spread_anti_axis_propaganda
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_spread_anti_axis_propaganda
+	completion_reward = {
+
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_5
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_1
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_1
+	completion_reward = {
+
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_6
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_2
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_2
+	completion_reward = {
+
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_7
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_3
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_3
+	completion_reward = {
+
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_8
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_4
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_4
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = CAL_9
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_5
+	}
+	prerequisite = {
+		focus = CAL_6
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_ratify_the_american_iron_front
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = CAL_10
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_7
+	}
+	prerequisite = {
+		focus = CAL_8
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_spread_anti_axis_propaganda
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = CAL_11
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_9
+	}
+	prerequisite = {
+		focus = CAL_10
+	}
+	x = 0
+	y = 5
+	relative_position_id = CAL_dreams_of_a_united_american_anti_nazi_front
+	completion_reward = {
+
+	}
 }
