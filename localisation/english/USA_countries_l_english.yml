@@ -1,0 +1,14 @@
+﻿l_english:
+#COUNTRY NAMES#
+ CAL: "California Republic"
+ CAL_DEF: "California Republic"
+ CAL_ADJ: "Californian"
+ CSD: "Cascadia"
+ CSD_DEF: "Cascadia"
+ CSD_ADJ: "Cascadian"
+#PARTIES
+ CAL_democratic_party: "Progressive Party"
+ CAL_democratic_party_long: "§YProgressive Party§!\n§gDid You Know You Can Add Descriptions to these?§!"
+ CSD_neutrality_party: "CNM"
+ CSD_neutrality_party_long: "Cascadian National Movement"
+
