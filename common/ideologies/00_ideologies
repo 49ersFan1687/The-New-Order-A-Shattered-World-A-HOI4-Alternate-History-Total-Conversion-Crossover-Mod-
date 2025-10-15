@@ -4,60 +4,72 @@ ideologies = {
         types = {
 
         }
+	color = { 117 20 13 }
     }
     socialism = {
         types = {
 
         }
+	color = { 209 0 0 }
     }
     social_democracy = {
         types = {
 
         }
+	color = { 148 80 142 }
     }
-    liberalism = {
+    democratic = {
         types = {
 
         }
+	color = { 31 121 181 }
     }
     conservatism = {
         types = {
 
         }
+	color = { 22 37 138 }
     }
-    authoritarian_democracy = {
+    neutrality = {
         types = {
 
         }
+	color = { 135 135 140 }
     }
     accelerationism = {
         types = {
 
         }
+	color = { 198 192 207 }
     }
     paternal_autocrat = {
         types = {
 
         }
+	color = { 54 54 54 }
     }
     fascism = {
         types = {
 
         }
+	color = { 92 58 20 }
     }
     ultranationalism = {
         types = {
 
         }
+	color = { 32 43 39 }
     }
     national_socialism = {
         types = {
 
         }
+	color = { 41 33 22 }
     }
     esotericism = {
         types = {
             
         }
+	color = { 49 24 71 }
     }
 }
