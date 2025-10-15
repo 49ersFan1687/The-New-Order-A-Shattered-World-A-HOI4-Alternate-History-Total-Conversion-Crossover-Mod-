@@ -626,7 +626,7 @@ shared_focus = {
 
 
 shared_focus = {
-	id = CAL_dreams_of_a_united_north_american_anti_nazi_front
+	id = CAL_dreams_of_a_united_american_anti_nazi_front
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -654,18 +654,33 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_dreams_of_a_united_north_american_anti_nazi_front
+		focus = CAL_dreams_of_a_united_american_anti_nazi_front
 	}
-	x = -1
+	x = -1.5
 	y = 1
-	relative_position_id = CAL_dreams_of_a_united_north_american_anti_nazi_front
+	relative_position_id = CAL_dreams_of_a_united_american_anti_nazi_front
 	completion_reward = {
 
 	}
 }
 
 shared_focus = {
-	id = CAL_
+	id = CAL_spread_anti_nazi_propaganda
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_dreams_of_a_united_american_anti_nazi_front
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_dreams_of_a_united_american_anti_nazi_front
+	completion_reward = {
+
+	}
 }
 
 shared_focus = {
