@@ -626,7 +626,7 @@ shared_focus = {
 
 
 shared_focus = {
-	id = CAL_dreams_of_a_united_american_anti_nazi_front
+	id = CAL_dreams_of_a_united_north_american_anti_nazi_front
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -640,8 +640,62 @@ shared_focus = {
 	y = -1
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_dreams_of_a_united_anti_nazi_front"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_dreams_of_a_united_american_anti_nazi_front"
 
 	}
 }
 
+shared_focus = {
+	id = CAL_ratify_the_american_iron_front
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_dreams_of_a_united_north_american_anti_nazi_front
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_dreams_of_a_united_north_american_anti_nazi_front
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+	id = CAL_
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
+
+shared_focus = {
+	
+}
