@@ -515,7 +515,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_surplus_canadian_equipment
+	id = CAL_a_permanent_liason_to_america
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
