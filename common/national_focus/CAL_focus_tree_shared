@@ -336,6 +336,8 @@ shared_focus = {
 	}
 }
 
+
+
 shared_focus = {
 	id = CAL_alexanders_military_mission
 	icon = GFX
