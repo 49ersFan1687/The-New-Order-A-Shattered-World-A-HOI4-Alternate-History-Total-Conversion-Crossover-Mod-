@@ -347,7 +347,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
-	x = -4
+	x = -5
 	y = -1
 	relative_position_id = CAL_barely_no_industry
 	completion_reward = {
@@ -636,7 +636,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_contact_the_remnants
 	}
-	x = 4
+	x = 5
 	y = -1
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
@@ -656,7 +656,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_dreams_of_a_united_american_anti_nazi_front
 	}
-	x = -1.5
+	x = -2
 	y = 1
 	relative_position_id = CAL_dreams_of_a_united_american_anti_nazi_front
 	completion_reward = {
@@ -665,7 +665,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_spread_anti_axis_propaganda
+	id = CAL_spread_anti_nazi_propaganda
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -675,7 +675,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_dreams_of_a_united_american_anti_nazi_front
 	}
-	x = 1.5
+	x = 2
 	y = 1
 	relative_position_id = CAL_dreams_of_a_united_american_anti_nazi_front
 	completion_reward = {
@@ -684,7 +684,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_1
+	id = CAL_fuck_fascists
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -703,7 +703,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_2
+	id = CAL_down_with_the_kings
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -722,7 +722,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_3
+	id = CAL_hitler_the_nose_picker
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -730,18 +730,18 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_spread_anti_axis_propaganda
+		focus = CAL_spread_anti_nazi_propaganda
 	}
 	x = -1
 	y = 1
-	relative_position_id = CAL_spread_anti_axis_propaganda
+	relative_position_id = CAL_spread_anti_nazi_propaganda
 	completion_reward = {
 
 	}
 }
 
 shared_focus = {
-	id = CAL_4
+	id = CAL_the_other_side_of_the_pillow
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -749,18 +749,18 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_spread_anti_axis_propaganda
+		focus = CAL_spread_anti_nazi_propaganda
 	}
 	x = 1
 	y = 1
-	relative_position_id = CAL_spread_anti_axis_propaganda
+	relative_position_id = CAL_spread_anti_nazi_propaganda
 	completion_reward = {
 
 	}
 }
 
 shared_focus = {
-	id = CAL_5
+	id = CAL_fuck_off_nazi_punks
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -768,18 +768,18 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_1
+		focus = CAL_fuck_fascists
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_1
+	relative_position_id = CAL_fuck_fascists
 	completion_reward = {
 
 	}
 }
 
 shared_focus = {
-	id = CAL_6
+	id = CAL_against_authoritarians_no_matter_left_or_right
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -787,18 +787,18 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_2
+		focus = CAL_down_with_the_kings
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_2
+	relative_position_id = CAL_down_with_the_kings
 	completion_reward = {
 
 	}
 }
 
 shared_focus = {
-	id = CAL_7
+	id = CAL_your_führer_is_a_huge_asshat
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -806,18 +806,18 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_3
+		focus = CAL_hitler_the_nose_picker
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_3
+	relative_position_id = CAL_hitler_the_nose_picker
 	completion_reward = {
 
 	}
 }
 
 shared_focus = {
-	id = CAL_8
+	id = CAL_stalin_bizkit
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -825,18 +825,18 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_4
+		focus = CAL_the_other_side_of_the_pillow
 	}
 	x = 0
 	y = 1
-	relative_position_id = CAL_4
+	relative_position_id = CAL_the_other_side_of_the_pillow
 	completion_reward = {
 
 	}
 }
 
 shared_focus = {
-	id = CAL_9
+	id = CAL_no_more_tyrants
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -844,10 +844,10 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_5
+		focus = CAL_fuck_off_nazi_punks
 	}
 	prerequisite = {
-		focus = CAL_6
+		focus = CAL_against_authoritarians_no_matter_left_or_right
 	}
 	x = 0
 	y = 3
@@ -858,7 +858,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_10
+	id = CAL_winning_the_propaganda_war
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -866,21 +866,21 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_7
+		focus = CAL_your_führer_is_a_huge_asshat
 	}
 	prerequisite = {
-		focus = CAL_8
+		focus = CAL_stalin_bizkit
 	}
 	x = 0
 	y = 3
-	relative_position_id = CAL_spread_anti_axis_propaganda
+	relative_position_id = CAL_spread_anti_nazi_propaganda
 	completion_reward = {
 
 	}
 }
 
 shared_focus = {
-	id = CAL_11
+	id = CAL_Hans_dont_surf
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -888,10 +888,10 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_9
+		focus = CAL_no_more_tyrants
 	}
 	prerequisite = {
-		focus = CAL_10
+		focus = CAL_winning_the_propaganda_war
 	}
 	x = 0
 	y = 5
