@@ -904,7 +904,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_begin_the_construction_of_fortifications
+	id = CAL_beat_the_inertia
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -929,36 +929,363 @@ shared_focus = {
 }
 
 shared_focus = {
-
+	id = CAL_solve_the_resource_issue
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_beat_the_inertia
+	}
+	x = -4
+	y = 1
+	relative_position_id = CAL_beat_the_inertia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
+	}
 }
 
 shared_focus = {
-	
+	id = CAL_expand_the_southern_california_industry
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_beat_the_inertia
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_beat_the_inertia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_southern_california_industry"
+	}
+}
+
+shared_focus = {
+	id = CAL_initial_military_reforms
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_beat_the_inertia
+	}
+	x = 4
+	y = 1
+	relative_position_id = CAL_beat_the_inertia
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_solve_the_resource_issue"
+	}
+}
+
+shared_focus = {
+	id = CAL_oil_prospecting
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_solve_the_resource_issue
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_solve_the_resource_issue
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_oil_prospecting"
+	}
 }
 shared_focus = {
-	
+	id = CAL_open_iron_mines_in_san_bernardino
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_solve_the_resource_issue
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_solve_the_resource_issue
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_open_iron_mines_in_san_bernardino"
+	}	
 }
 shared_focus = {
-	
+	id = CAL_rebuild_long_beach
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_the_southern_california_industry
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_expand_the_southern_california_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_long_beach"
+	}		
 }
 shared_focus = {
-	
+	id = CAL_rebuild_the_city_of_angels
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_the_southern_california_industry
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_expand_the_southern_california_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_city_of_angels"
+	}
 }
 shared_focus = {
-	
+	id = CAL_reactivate_the_pacific_fleet
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_initial_military_reforms
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_initial_military_reforms
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reactivate_the_pacific_fleet"
+	}
 }
 shared_focus = {
-	
+	id = CAL_construct_forts_along_the_border
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_initial_military_reforms
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_initial_military_reforms
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_construct_forts_along_the_border"
+	}
 }
 shared_focus = {
-	
+	id = CAL_open_coal_mines_in_southern_california
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_oil_prospecting
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_oil_prospecting
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_open_coal_mines_in_southern_california"
+	}
 }
 shared_focus = {
-	
+	id = CAL_expand_steel_mills_in_sacramento
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_open_iron_mines_in_san_bernardino
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_open_iron_mines_in_san_bernardino
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_steel_mills_in_sacramento"
+	}
 }
 shared_focus = {
-	
+	id = CAL_a_rudimentary_economy
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_long_beach
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_long_beach
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_rudimentary_economy"
+	}
 }
 shared_focus = {
-	
+	id = CAL_reopen_arms_factories
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_the_city_of_angels
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_the_city_of_angels
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_reopen_arms_factories"
+	}
 }
+shared_focus = {
+	id = CAL_create_costal_defense_fortifications
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_reactivate_the_pacific_fleet
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_reactivate_the_pacific_fleet
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_create_costal_defense_fortifications"
+	}
+}
+shared_focus = {
+	id = CAL_the_encirclement_theory
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_construct_forts_along_the_border
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_construct_forts_along_the_border
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_encirclement_theory"
+	}
+}
+shared_focus = {
+	id = CAL_the_natural_riches_of_california
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_open_coal_mines_in_southern_california
+	}
+	prerequisite = {
+		focus = CAL_expand_steel_mills_in_sacramento
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_solve_the_resource_issue
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_natural_riches_of_california"
+	}
+}
+shared_focus = {
+	id = CAL_california_war_industry
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_a_rudimentary_economy
+	}
+	prerequisite = {
+		focus = CAL_reopen_arms_factories
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_expand_the_southern_california_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_california_war_industry"
+	}
+}
+shared_focus = {
+	id = CAL_expand_the_california_national_guard
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_create_costal_defense_fortifications
+	}
+	prerequisite = {
+		focus = CAL_the_encirclement_theory
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_initial_military_reforms
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_california_national_guard"
+	}
+}
+shared_focus = {
+	id = CAL_the_bear_roars_again
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_california_war_industry
+	}
+	prerequisite = {
+		focus = CAL_the_natural_riches_of_california
+	}
+	prerequisite = {
+		focus = CAL_expand_the_california_national_guard
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_california_war_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_bear_roars_again"
+	}
+}
+
