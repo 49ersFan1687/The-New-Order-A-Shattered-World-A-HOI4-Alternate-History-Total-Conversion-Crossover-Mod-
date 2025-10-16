@@ -269,7 +269,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	}
-	x = -1.5
+	x = -2.5
 	y = 1
     relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
@@ -294,7 +294,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	}
-	x = 1.5
+	x = 2.5
 	y = 1
     relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
@@ -317,13 +317,10 @@ shared_focus = {
 		factor = 1
 	}
 	prerequisite = {
-		focus = CAL_restablish_radio_contact_with_canada
-	}
-	prerequisite = {
-		focus = CAL_contact_the_remnants
+		focus = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	}
 	x = 0
-	y = 2
+	y = 1
     relative_position_id = CAL_what_the_absolute_fucking_hell_are_we_going_to_do_now
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_turning_southern_california_into_a_bastion"
@@ -555,6 +552,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_in_the_footsteps_of_general_alexander
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_canadian_funded_factories"
 		add_offsite_building = {
 		    type = arms_factory
 			level = 1
@@ -622,7 +620,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_the_foundations_of_a_new_allied_powers
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: focus CAL_the_beaver_and_the_eagle_march_together_to_war_once_more"
 	}
 }
 
@@ -902,4 +900,64 @@ shared_focus = {
 	completion_reward = {
 
 	}
+}
+
+shared_focus = {
+	id = CAL_begin_the_construction_of_fortifications
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_begin_turning_southern_california_into_a_bastion
+	}
+	prerequisite = {
+		focus = CAL_restablish_radio_contact_with_canada
+	}
+	prerequisite = {
+		focus = CAL_contact_the_remnants
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_begin_turning_southern_california_into_a_bastion
+	completion_reward = {
+
+	}
+}
+
+shared_focus = {
+
+}
+
+shared_focus = {
+	
+}
+shared_focus = {
+	
+}
+shared_focus = {
+	
+}
+shared_focus = {
+	
+}
+shared_focus = {
+	
+}
+shared_focus = {
+	
+}
+shared_focus = {
+	
+}
+shared_focus = {
+	
+}
+shared_focus = {
+	
+}
+shared_focus = {
+	
 }
