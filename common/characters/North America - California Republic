@@ -190,7 +190,7 @@ characters = {
 		name = CAL_William_Childs_Westmoreland
 		portraits = {
 			army = {
-
+				large = 
 			}
 		}
 		corps_commander = {
@@ -206,7 +206,7 @@ characters = {
 		name = CAL_Maxwell_Davenport_Taylor
 		portraits = {
 			army = {
-
+				large =
 			}
 		}
 		corps_commander = {
@@ -219,10 +219,10 @@ characters = {
 		}
 	}
 	CAL_Mark_Wayne_Clark = {
-		name = CAL_Maxwell_Davenport_Taylor
+		name = CAL_Mark_Wayne_Clark
 		portraits = {
 			army = {
-
+				large =
 			}
 		}
 		corps_commander = {
