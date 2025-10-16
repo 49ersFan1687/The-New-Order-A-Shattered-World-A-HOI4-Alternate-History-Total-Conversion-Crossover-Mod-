@@ -158,7 +158,7 @@ characters = {
 		name = CAL_Smedley_Darlington_Butler
 		portraits = {
 			army = {
-				invite = "gfx/leaders/CAL/Portrait_CAL_Smedley_Darlington_Butler.dds"
+				large = "gfx/leaders/CAL/Portrait_CAL_Smedley_Darlington_Butler.dds"
 			}
 		}
 		corps_commander = {
@@ -174,7 +174,7 @@ characters = {
 		name = CAL_Glynda_Goodwitch
 		portraits = {
 			army = {
-
+				large = "gfx/leaders/CAL/Portrait_CAL_Glynda_Goodwitch.dds"
 			}
 		}
 		corps_commander = {
