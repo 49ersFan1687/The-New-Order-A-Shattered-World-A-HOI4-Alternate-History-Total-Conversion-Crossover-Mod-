@@ -13,3 +13,18 @@ country_event = {
 		
 	}
 }
+
+country_event = {
+	id = CSD_event.2
+	title = CSD_event.2.t
+	desc = CSD_event.2.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	is_triggered_only = yes
+
+	option = { 
+		name = CSD_event.2.a
+		ai_chance = { factor = 1 }
+		
+	}
+}
