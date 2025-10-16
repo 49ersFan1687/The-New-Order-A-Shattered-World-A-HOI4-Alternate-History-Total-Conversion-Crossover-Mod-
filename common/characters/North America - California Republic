@@ -142,7 +142,7 @@ characters = {
 		name = CAL_Walton_Harris_Walker
 		portraits = {
 			army = {
-
+				large = "gfx/leaders/CAL/Portrait_CAL_Walton_Harris_Walker.dds"
 			}
 		}
 		corps_commander = {
