@@ -661,7 +661,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_dreams_of_a_united_american_anti_nazi_front
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_ratify_the_american_iron_front"
 	}
 }
 
@@ -680,7 +680,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_dreams_of_a_united_american_anti_nazi_front
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_spread_anti_nazi_propaganda"
 	}
 }
 
@@ -699,7 +699,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_ratify_the_american_iron_front
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_fuck_fascists"
 	}
 }
 
@@ -718,7 +718,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_ratify_the_american_iron_front
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_down_with_the_kings"
 	}
 }
 
@@ -737,6 +737,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_spread_anti_nazi_propaganda
 	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hitler_the_nose_picker"
 
 	}
 }
@@ -756,7 +757,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_spread_anti_nazi_propaganda
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_other_side_of_the_pillow"
 	}
 }
 
@@ -775,7 +776,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_fuck_fascists
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_fuck_off_nazi_punks"
 	}
 }
 
@@ -794,7 +795,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_down_with_the_kings
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_against_authoritarians_no_matter_left_or_right"
 	}
 }
 
@@ -813,7 +814,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_hitler_the_nose_picker
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_CAL_your_führer_is_a_huge_asshat"
 	}
 }
 
@@ -832,7 +833,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_the_other_side_of_the_pillow
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_stalin_bizkit"
 	}
 }
 
@@ -854,7 +855,7 @@ shared_focus = {
 	y = 3
 	relative_position_id = CAL_ratify_the_american_iron_front
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_no_more_tyrants"
 	}
 }
 
@@ -876,12 +877,12 @@ shared_focus = {
 	y = 3
 	relative_position_id = CAL_spread_anti_nazi_propaganda
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_winning_the_propaganda_war"
 	}
 }
 
 shared_focus = {
-	id = CAL_Hans_dont_surf
+	id = CAL_hans_dont_surf
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -898,7 +899,7 @@ shared_focus = {
 	y = 5
 	relative_position_id = CAL_dreams_of_a_united_american_anti_nazi_front
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_hans_dont_surf"
 	}
 }
 
@@ -923,7 +924,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_begin_turning_southern_california_into_a_bastion
 	completion_reward = {
-
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_begin_the_construction_of_fortifications"
 	}
 }
 
