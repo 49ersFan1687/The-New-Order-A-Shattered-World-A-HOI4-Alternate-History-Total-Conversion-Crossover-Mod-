@@ -101,6 +101,8 @@ ideas = {
 
             }
         }
+        ### Army Reform Ideas -  ###
+
         ### Canadian Military Mission ####
         CAL_Alexanders_Advice = { #General Alexander has been chosen to help Improve the Second Continental Army
             on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_Alexanders_Advice" }
@@ -125,6 +127,15 @@ ideas = {
             picture = Simonds_plan
             modifier = {
 
+            }
+        }
+        CAL_the_permanant_canadian_liason = {
+            on_add = { log = "[GetDateText]: [Root.GetName]: add idea CAL_the_permanant_canadian_liason" }
+            allowed = { always = no }
+            picture = permanent_canadian_liason
+            modifier = {
+                max_command_power = 15
+                experience_gain_army = 0.03
             }
         }
         ### Air Force Reform Ideas ###
