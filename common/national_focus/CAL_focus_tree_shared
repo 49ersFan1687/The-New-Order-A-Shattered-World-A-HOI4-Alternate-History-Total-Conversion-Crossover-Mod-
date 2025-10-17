@@ -530,7 +530,7 @@ shared_focus = {
 	y = 1
 	relative_position_id = CAL_in_the_footsteps_of_general_simonds
 	completion_reward = {
-		log = "[GetDateText]: [Root.GetName]: Focus CAL_surplus_canadian_equipment"
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_permanent_liason_to_america"
 		
 	}
 }
