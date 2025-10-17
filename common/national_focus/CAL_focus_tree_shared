@@ -503,7 +503,7 @@ shared_focus = {
 	relative_position_id = CAL_canadian_surplus_weapons
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_in_the_footsteps_of_general_simonds"
-		add_idea = moncels_advice
+		add_idea = CAL_moncels_advice
 		add_doctrine_cost_reduction = {
 			name = cat_grand_battleplan
 			cost_reduction = 0.5
@@ -531,6 +531,7 @@ shared_focus = {
 	relative_position_id = CAL_in_the_footsteps_of_general_simonds
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_a_permanent_liason_to_america"
+		add_idea = CAL_the_permanant_canadian_liason
 		
 	}
 }
