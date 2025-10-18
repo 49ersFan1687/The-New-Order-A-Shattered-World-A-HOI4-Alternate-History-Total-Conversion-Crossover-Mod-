@@ -1707,3 +1707,145 @@ shared_focus = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_chrysler_factory_in_los_angeles"
 	}
 }
+
+shared_focus = {
+	id = CAL_invest_in_public_health
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_public_works_programs
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_public_works_programs
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_invest_in_public_health"
+	}
+}
+
+shared_focus = {
+	id = CAL_improve_highway_systems
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_upgrade_railway_systems
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_upgrade_railway_systems
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_improve_highway_systems"
+	}
+}
+
+shared_focus = {
+	id = CAL_expand_the_sc_willys_overland_factory
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_la_north_american_aviation_factory
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_la_north_american_aviation_factory
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_willys_overland_factory_in_southern_california"
+	}
+}
+
+shared_focus = {
+	id = CAL_expand_the_la_firestone_factory
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_the_la_chrysler_factory
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_the_la_chrysler_factory
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_firestone_factory_in_los_angeles"
+	}
+}
+
+shared_focus = {
+	id = CAL_rebuild_state_monuments
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_invest_in_public_health
+	}
+	prerequisite = {
+		focus = CAL_improve_highway_systems
+	}
+	x = 0
+	y = 5
+	relative_position_id = CAL_rebuild_california_civillian_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_state_monuments"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_new_arsenal_of_democracy
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_the_sc_willys_overland_factory
+	}
+	prerequisite = {
+		focus = CAL_expand_the_la_firestone_factory
+	}
+	x = 0
+	y = 5
+	relative_position_id = CAL_rebuild_california_military_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_arsenal_of_democracy"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_new_bastion_of_freedom
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_state_monuments
+	}
+	prerequisite = {
+		focus = CAL_the_new_arsenal_of_democracy
+	}
+	x = 0
+	y = 7
+	relative_position_id = CAL_consolidate_control_over_california
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_new_bastion_of_freedom"
+	}
+}
