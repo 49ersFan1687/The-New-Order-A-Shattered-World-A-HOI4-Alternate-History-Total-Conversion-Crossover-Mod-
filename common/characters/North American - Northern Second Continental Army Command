@@ -1,0 +1,7 @@
+characters = {
+    # Country Leaders #
+    NCA_Curtis_Emerson_Lemay = {
+        name = NCA_Curtis_Emerson_Lemay
+        
+    }
+}
