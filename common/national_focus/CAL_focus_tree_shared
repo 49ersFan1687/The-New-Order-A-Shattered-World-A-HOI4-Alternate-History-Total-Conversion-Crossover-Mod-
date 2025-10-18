@@ -1301,8 +1301,8 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_the_bear_roars_again
 	}
-	x = 0
-	y = 2
+	x = -2
+	y = 1
 	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_first_of_many_steps_to_victory"
@@ -1417,3 +1417,293 @@ shared_focus = {
 	}
 }
 
+shared_focus = {
+	id = CAL_consolidate_control_over_california
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_send_ultimatum_to_bay_area_republic
+	}
+	prerequisite = {
+		focus = CAL_send_ultimatum_to_colorado_river_republic
+	}
+	prerequisite = {
+		focus = CAL_send_an_ultimatum_to_the_california_state_guard
+	}
+	x = 0
+	y = 3
+	relative_position_id = CAL_the_first_of_many_steps_to_victory
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_consolidate_control_over_california"
+	}
+}
+
+shared_focus = {
+	id = CAL_rebuild_california_civillian_industry
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_consolidate_control_over_california
+	}
+	x = -2.5
+	y = 1
+	relative_position_id = CAL_consolidate_control_over_california
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_california_civillian_industry"
+	}
+}
+
+shared_focus = {
+	id = CAL_rebuild_california_military_industry
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_consolidate_control_over_california
+	}
+	x = 2.5
+	y = 1
+	relative_position_id = CAL_consolidate_control_over_california
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_california_military_industry"
+	}
+}
+
+shared_focus = {
+	id = CAL_support_small_businesses
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_california_civillian_industry
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_rebuild_california_civillian_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_support_small_businesses"
+	}
+}
+
+shared_focus = {
+	id = CAL_rebuild_transportation_network
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_california_civillian_industry
+	}	
+	x = 1
+	y = 1
+	relative_position_id = CAL_rebuild_california_civillian_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_california_transportation_network"
+	}
+}
+
+shared_focus = {
+	id = CAL_expand_sd_consolidated_aircraft
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_california_military_industry
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_rebuild_california_military_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_and_expand_the_san_diego_consolidated_aircraft_factory"
+	}
+}
+
+shared_focus = {
+	id = CAL_expand_burbank_lockheed_aircraft_factory
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_sd_consolidated_aircraft
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_expand_sd_consolidated_aircraft
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_lockheed_aircraft_factory_in_burbank"
+	}
+}
+
+shared_focus = {
+	id = CAL_implment_new_deal_policies
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_support_small_businesses
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_support_small_businesses
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_implment_new_deal_policies"
+	}
+}
+
+shared_focus = {
+	id = CAL_modernize_infrastructure
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_transportation_network
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_transportation_network
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_modernize_transportation_infrastructure"
+	}
+}
+
+shared_focus = {
+	id = CAL_expand_richmond_ford_plant
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_california_military_industry
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_rebuild_california_military_industry
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_expand_the_gm_plant_in_richmond"
+	}
+}
+
+shared_focus = {
+	id = CAL_rebuild_oakland_gm_plant
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_richmond_ford_plant
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_expand_richmond_ford_plant
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_gm_plant_in_oakland"
+	}
+}
+
+shared_focus = {
+	id = CAL_public_works_programs
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_implment_new_deal_policies
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_implment_new_deal_policies
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_public_works_programs"
+	}
+}
+
+shared_focus = {
+	id = CAL_upgrade_railway_systems
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_modernize_infrastructure
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_modernize_infrastructure
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_upgrade_railway_systems"
+	}
+}
+
+shared_focus = {
+	id = CAL_rebuild_la_north_american_aviation_factory
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_expand_burbank_lockheed_aircraft_factory
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_expand_burbank_lockheed_aircraft_factory
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_north_american_aviation_factory_in_los_angeles"
+	}
+}
+
+shared_focus = {
+	id = CAL_rebuild_the_la_chrysler_factory
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_rebuild_oakland_gm_plant
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_rebuild_oakland_gm_plant
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_rebuild_the_chrysler_factory_in_los_angeles"
+	}
+}
