@@ -346,7 +346,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_restablish_radio_contact_with_canada
 	}
-	x = -5
+	x = -6
 	y = -1
 	relative_position_id = CAL_barely_no_industry
 	completion_reward = {
@@ -638,7 +638,7 @@ shared_focus = {
 	available = {
 		has_completed_focus = CAL_contact_the_remnants
 	}
-	x = 5
+	x = 6
 	y = -1
 	relative_position_id = CAL_alone_and_isolated
 	completion_reward = {
@@ -1287,6 +1287,64 @@ shared_focus = {
 	relative_position_id = CAL_california_war_industry
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_bear_roars_again"
+	}
+}
+
+shared_focus = {
+	id = CAL_the_first_of_many_steps_to_victory
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	available = {
+		has_completed_focus = CAL_the_bear_roars_again
+	}
+	x = 0
+	y = 1
+	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_first_of_many_steps_to_victory"
+	}
+}
+
+shared_focus = {
+	id = CAL_summon_the_joint_chiefs_of_staff
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_first_of_many_steps_to_victory
+	}
+	x = -1.5
+	y = 1
+	relative_position_id = CAL_the_first_of_many_steps_to_victory
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_summon_the_joint_chiefs_of_staff"
+	}
+}
+
+shared_focus = {
+	id = CAL_integrate_northern_second_continental_army_command
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_the_first_of_many_steps_to_victory
+	}
+	x = 1.5
+	y = 1
+	relative_position_id = CAL_the_first_of_many_steps_to_victory
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_northern_second_continental_army_command"
+
 	}
 }
 
