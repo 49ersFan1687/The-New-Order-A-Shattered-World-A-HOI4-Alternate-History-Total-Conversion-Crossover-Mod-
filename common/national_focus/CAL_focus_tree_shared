@@ -1302,7 +1302,7 @@ shared_focus = {
 		has_completed_focus = CAL_the_bear_roars_again
 	}
 	x = 0
-	y = 1
+	y = 2
 	relative_position_id = CAL_the_beaver_and_the_eagle_march_together_to_war_once_more
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_the_first_of_many_steps_to_victory"
@@ -1320,7 +1320,7 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_the_first_of_many_steps_to_victory
 	}
-	x = -1.5
+	x = -1.2
 	y = 1
 	relative_position_id = CAL_the_first_of_many_steps_to_victory
 	completion_reward = {
@@ -1329,7 +1329,7 @@ shared_focus = {
 }
 
 shared_focus = {
-	id = CAL_integrate_northern_second_continental_army_command
+	id = CAL_integrate_northern_sca_command
 	icon = GFX
 	cost = 5
 	available_if_capitualted = no
@@ -1339,12 +1339,81 @@ shared_focus = {
 	prerequisite = {
 		focus = CAL_the_first_of_many_steps_to_victory
 	}
-	x = 1.5
+	x = 1.2
 	y = 1
 	relative_position_id = CAL_the_first_of_many_steps_to_victory
 	completion_reward = {
 		log = "[GetDateText]: [Root.GetName]: Focus CAL_integrate_northern_second_continental_army_command"
+		annex_country = {
+			target = NCA
+			transfer_troops = yes
+		}
+	}
+}
 
+shared_focus = {
+	id = CAL_send_ultimatum_to_bay_area_republic
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_northern_sca_command
+	}
+	prerequisite = {
+		focus = CAL_summon_the_joint_chiefs_of_staff
+	}
+	x = 0
+	y = 2
+	relative_position_id = CAL_the_first_of_many_steps_to_victory
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_send_an_ultimatum_to_the_bay_area_republic"
+	}
+}
+
+shared_focus = {
+	id = CAL_send_ultimatum_to_colorado_river_republic
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_integrate_northern_sca_command
+	}
+	prerequisite = {
+		focus = CAL_summon_the_joint_chiefs_of_staff
+	}
+	x = 1
+	y = 1
+	relative_position_id = CAL_integrate_northern_sca_command
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_send_an_ultimatum_to_the_colorado_river_republic"
+	}
+}
+
+shared_focus = {
+	id = CAL_send_an_ultimatum_to_the_california_state_guard
+	icon = GFX
+	cost = 5
+	available_if_capitualted = no
+	ai_will_do = {
+		factor = 1
+	}
+	prerequisite = {
+		focus = CAL_summon_the_joint_chiefs_of_staff
+	}
+	prerequisite = {
+		focus = CAL_integrate_northern_sca_command
+	}
+	x = -1
+	y = 1
+	relative_position_id = CAL_summon_the_joint_chiefs_of_staff
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus CAL_send_an_ultimatum_to_the_california_state_guard"
 	}
 }
 
